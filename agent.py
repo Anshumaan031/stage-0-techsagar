@@ -10,6 +10,8 @@ from pathlib import Path
 
 from pydantic_ai import Agent, ModelRetry, RunContext
 from pydantic import BaseModel, Field
+# from pydantic_ai.common_tools.duckduckgo import duckduckgo_search_tool
+from langchain_community.tools import DuckDuckGoSearchRun
 from tavily import AsyncTavilyClient
 from utils import db
 from utils import helper
@@ -58,13 +60,13 @@ class SearchDataclass:
     tech_area: str
     todays_date: str
 
-@dataclass  #using dataclass because we don't need validation
+@dataclass
 class CompanySearchDependencies:
     tech_area: str
     todays_date: str
     max_results: int
 
-class CompanyInfo(BaseModel):   #not using @dataclass because we need validation and serialization
+class CompanyInfo(BaseModel):
     name: str = Field(description='Name of the company')
     website: str = Field(description='Official website URL of the company')
     tech_area: str = Field(description='Primary technology area of the company')
@@ -76,15 +78,16 @@ class CompanySearchResult(BaseModel):
 # Create the agent with specific focus on company extraction
 company_search_agent = Agent(
     'openai:gpt-4',
+    # tools=[duckduckgo_search_tool()],
     deps_type=CompanySearchDependencies,
     result_type=CompanySearchResult,
     system_prompt='''You are an expert at researching Indian technology startups.
     Your task is to:
     1. Make ONE comprehensive search query that includes company names AND their websites
-    2. Limit extraction to 10-12 most promising startups per technology area
-    3. Include official website URLs from the search results
-    4. Make sure the companies are startup and not established big companies
-    5. Make sure the companies extracted are headquartered in India and not anywhere else in the world
+    3. Use both the duckduckgo_search_tool and the Tavily API to get search results
+    2. Extract only verified Indian startups (not established companies)
+    3. Limit extraction to 5-7 most promising startups per technology area
+    4. Include official website URLs from the search results
     
     Use this search format:
     "top emerging Indian startups in [tech_area] technology with their official websites"
@@ -101,7 +104,48 @@ async def get_search(search_data: RunContext[SearchDataclass], query: str, query
     results = await tavily_client.get_search_context(
         query=query,
         max_results=search_data.deps.max_results,
-        search_depth="advanced",
-        exclude_domains=["wikipedia.org"]
+        search_depth="advanced"
     )
     return results
+
+# @company_search_agent.tool
+# async def get_ddg_search(search_data: RunContext[SearchDataclass], query: str, query_number: int) -> dict[str, Any]:
+#     """Tool for getting DuckDuckGo search results for Indian startups in specific tech areas.
+#     This complements the Tavily search by providing an alternative source of information.
+#     """
+#     print(f"DuckDuckGo search query {query_number}: {query}")
+    
+#     # Initialize the DuckDuckGo search tool
+#     ddg_search = DuckDuckGoSearchRun()
+    
+#     # Execute the search
+#     try:
+#         # DuckDuckGo search returns results as a string
+#         results_text = ddg_search.invoke(query)
+        
+#         # Process the results to match the format expected by the agent
+#         # We'll structure it similar to how Tavily results are structured
+#         processed_results = {
+#             "query": query,
+#             "results": [
+#                 {
+#                     "content": results_text,
+#                     "source": "DuckDuckGo Search",
+#                     "score": 1.0,  # Default score
+#                 }
+#             ],
+#             "search_depth": "standard",
+#             "source": "duckduckgo"
+#         }
+        
+#         return processed_results
+#     except Exception as e:
+#         print(f"Error in DuckDuckGo search: {str(e)}")
+#         # Return empty results in case of error
+#         return {
+#             "query": query,
+#             "results": [],
+#             "search_depth": "standard",
+#             "source": "duckduckgo",
+#             "error": str(e)
+#         }

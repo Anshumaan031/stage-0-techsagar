@@ -1,6 +1,5 @@
 from pydantic_ai import Agent, ModelRetry, RunContext
 from pydantic import BaseModel, Field
-from typing import List, Set
 
 # SQLAlchemy imports
 from sqlalchemy import create_engine, Column, String, Integer, text
@@ -37,53 +36,32 @@ class CompanyInfo(BaseModel):
     website: str = Field(description='Official website URL of the company')
     tech_area: str = Field(description='Primary technology area of the company')
 
-def get_existing_companies() -> Set[str]:
-    """Get set of existing company names from the database."""
+def save_to_database(companies: List[CompanyInfo]) -> None:
+    """Save company information to the database."""
     session = SessionLocal()
-    try:
-        companies = session.query(CompanyDB.name).all()
-        return {company[0] for company in companies}
-    except SQLAlchemyError as e:
-        print(f"❌ Error querying database: {str(e)}")
-        return set()
-    finally:
-        session.close()
-
-def save_to_database(companies: List[CompanyInfo], existing_companies: dict) -> None:
-    """
-    Save company information to the database, skipping companies that already exist.
-    
-    Args:
-        companies: List of CompanyInfo objects containing company data
-        existing_companies: Dictionary of existing companies from the array
-    """
-    session = SessionLocal()
-    existing_db_companies = get_existing_companies()
-    
     try:
         for company in companies:
-            # Skip if company exists in either database or the provided array
-            if company.name in existing_db_companies or company.name in existing_companies:
-                print(f"Skipping existing company: {company.name}")
-                continue
-
-            db_company = CompanyDB(
-                name=company.name,
-                website=company.website,
-                tech_area=company.tech_area
-            )
-            session.add(db_company)
-            print(f"Adding new company: {company.name}")
+            # Check if company already exists
+            existing_company = session.query(CompanyDB).filter_by(name=company.name).first()
+            if not existing_company:
+                db_company = CompanyDB(
+                    name=company.name,
+                    website=company.website,
+                    tech_area=company.tech_area
+                )
+                session.add(db_company)
+                print(f"Adding new company: {company.name}")
+            else:
+                print(f"Company already exists: {company.name}")
         
         session.commit()
-        print("✅ Successfully saved new companies to database")
+        print("✅ Successfully saved companies to database")
     
     except SQLAlchemyError as e:
         print(f"❌ Database error: {str(e)}")
         session.rollback()
     finally:
         session.close()
-
 
 def query_database():
     """Utility function to query and display all companies in the database."""

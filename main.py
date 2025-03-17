@@ -50,14 +50,14 @@ async def main():
     results_dir = helper.ensure_results_directory()
     
     # Test database connection
-    try:
-        session = SessionLocal()
-        session.execute(text("SELECT 1"))
-        print("✅ Successfully connected to MySQL database")
-        session.close()
-    except SQLAlchemyError as e:
-        print(f"❌ Failed to connect to database: {str(e)}")
-        return
+    # try:
+    #     session = SessionLocal()
+    #     session.execute(text("SELECT 1"))
+    #     print("✅ Successfully connected to MySQL database")
+    #     session.close()
+    # except SQLAlchemyError as e:
+    #     print(f"❌ Failed to connect to database: {str(e)}")
+    #     return
 
     # Define the technology areas
     # TECHNOLOGY_AREAS = [
@@ -72,9 +72,7 @@ async def main():
     #     "Wireless and Networking Technologies", "5G and 6G"
     # ]
 
-    TECHNOLOGY_AREAS = [
-        "Material Science",'IOT','5G and 6G'
-    ]
+    TECHNOLOGY_AREAS = ["Computer Vision"]
 
     for tech_area in TECHNOLOGY_AREAS:
         print(f"\nProcessing {tech_area}...")
@@ -108,4 +106,4 @@ if __name__ == "__main__":
     asyncio.run(main())
     
     # Query and display the results from the database
-    db.query_database()
+    # query_database()

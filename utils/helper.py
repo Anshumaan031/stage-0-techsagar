@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 import asyncio
 from dataclasses import dataclass
-from typing import Any, List, Dict
+from typing import Any, List
 from datetime import date
 from pathlib import Path
 from agent import company_search_agent
@@ -14,7 +14,6 @@ from pydantic import BaseModel, Field
 from tavily import AsyncTavilyClient
 from utils import db
 from utils import helper
-import json
 
 # SQLAlchemy imports
 from sqlalchemy import create_engine, Column, String, Integer, text
@@ -53,22 +52,12 @@ class CompanySearchResult(BaseModel):
     companies: List[CompanyInfo] = Field(description='List of companies with their details')
     summary: str = Field(description='Brief summary of the search results')
 
-def load_existing_companies() -> Dict:
-    """Load the existing companies from the JSON file."""
-    try:
-        with open('filered-data-company-14feb-array.json', 'r') as f:
-            return json.load(f)
-    except Exception as e:
-        print(f"❌ Error loading existing companies: {str(e)}")
-        return {}
-
-
 async def process_tech_area(tech_area: str) -> CompanySearchResult:
     """Process a single technology area to find relevant startups."""
     deps = CompanySearchDependencies(
         tech_area=tech_area,
         todays_date=date.today().strftime("%Y-%m-%d"),
-        max_results=10
+        max_results=5
     )
 
     result = await company_search_agent.run(
@@ -76,11 +65,8 @@ async def process_tech_area(tech_area: str) -> CompanySearchResult:
         deps=deps
     )
 
-    # Load existing companies
-    existing_companies = load_existing_companies()
-
-    #Save the results to database
-    db.save_to_database(result.data.companies, existing_companies)
+    # Save the results to database
+    # save_to_database(result.data.companies)
 
     return result.data
 
