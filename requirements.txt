@@ -11,3 +11,4 @@ httpx
 devtools
 pydantic-ai
 mysql-connector-python
+flask

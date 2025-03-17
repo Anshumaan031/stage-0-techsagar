@@ -11,7 +11,7 @@ from pathlib import Path
 from pydantic_ai import Agent, ModelRetry, RunContext
 from pydantic import BaseModel, Field
 # from pydantic_ai.common_tools.duckduckgo import duckduckgo_search_tool
-from langchain_community.tools import DuckDuckGoSearchRun
+# from langchain_community.tools import DuckDuckGoSearchRun
 from tavily import AsyncTavilyClient
 from utils import db
 from utils import helper
