@@ -1,0 +1,79 @@
+from __future__ import annotations as _annotations
+
+import os
+from dotenv import load_dotenv
+import asyncio
+from dataclasses import dataclass
+from typing import Any, List
+from datetime import date
+from pathlib import Path
+from agent import create_search_agent, CompanySearchDependencies, CompanySearchResult
+
+from pydantic_ai import Agent, ModelRetry, RunContext
+from pydantic import BaseModel, Field
+from tavily import AsyncTavilyClient
+from utils import db
+from utils import helper
+
+# SQLAlchemy imports
+from sqlalchemy import create_engine, Column, String, Integer, text
+from sqlalchemy.orm import declarative_base, sessionmaker
+from sqlalchemy.exc import SQLAlchemyError
+
+# Load environment variables
+load_dotenv()
+
+# Setup API keys
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY")
+
+# Setup Tavily Client
+tavily_client = AsyncTavilyClient(api_key=os.environ["TAVILY_API_KEY"])
+
+
+@dataclass
+class SearchDataclass:
+    max_results: int
+    tech_area: str
+    todays_date: str
+
+@dataclass
+class CompanySearchDependencies:
+    tech_area: str
+    todays_date: str
+    max_results: int
+
+class CompanyInfo(BaseModel):
+    name: str = Field(description='Name of the company')
+    website: str = Field(description='Official website URL of the company')
+    tech_area: str = Field(description='Primary technology area of the company')
+
+class CompanySearchResult(BaseModel):
+    companies: List[CompanyInfo] = Field(description='List of companies with their details')
+    summary: str = Field(description='Brief summary of the search results')
+
+async def process_tech_area(tech_area: str, max_results: int = 5, num_companies: int = 5) -> CompanySearchResult:
+    """Process a single technology area to find relevant startups."""
+    from agent import create_search_agent  # Import here to avoid circular import
+
+    deps = CompanySearchDependencies(
+        tech_area=tech_area,
+        todays_date=date.today().strftime("%Y-%m-%d"),
+        max_results=max_results
+    )
+
+    # Create a new agent instance with the specified number of companies
+    agent = create_search_agent(num_companies)
+
+    result = await agent.run(
+        f'top emerging Indian startups in {tech_area} technology with their official websites',
+        deps=deps
+    )
+
+    return result.data
+
+def ensure_results_directory():
+    """Create results directory if it doesn't exist."""
+    results_dir = Path("results")
+    results_dir.mkdir(exist_ok=True)
+    return results_dir

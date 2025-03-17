@@ -1,0 +1,14 @@
+python-dotenv
+openai
+tavily-python
+pydantic
+sqlalchemy
+pymysql
+pandas
+ipython
+nest-asyncio
+httpx
+devtools
+pydantic-ai
+mysql-connector-python
+streamlit
