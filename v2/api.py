@@ -10,12 +10,14 @@ from dotenv import load_dotenv
 from agent1 import research_tech_area
 from agent2 import validate_companies
 from agent3 import find_company_website, ensure_results_directory
+from flask_cors import CORS  
 
 # Load environment variables
 load_dotenv()
 
 # Setup Flask app
 app = Flask(__name__)
+CORS(app) 
 
 # Helper function to run async functions in sync context
 def run_async(coro):

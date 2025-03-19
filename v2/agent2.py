@@ -45,7 +45,7 @@ class CompanyValidationResult(BaseModel):
 
 # Create the validation agent
 validation_agent = Agent(
-    'openai:gpt-4',
+    'openai:gpt-4o-mini',
     deps_type=ValidationDependencies,
     result_type=CompanyValidationResult,
     system_prompt='''You are an expert at validating Indian technology startups.

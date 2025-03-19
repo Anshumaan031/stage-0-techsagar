@@ -40,7 +40,7 @@ class CompanyResearchResult(BaseModel):
 
 # Create the research agent
 company_research_agent = Agent(
-    'openai:gpt-4',
+    'openai:gpt-4o-mini',
     deps_type=ResearchDependencies,
     result_type=CompanyResearchResult,
     system_prompt='''You are an expert at researching emerging Indian technology startups.

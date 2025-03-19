@@ -35,8 +35,6 @@ class WebsiteInfo(BaseModel):
     company_name: str = Field(description='Name of the company')
     official_website: str = Field(description='Official website URL of the company')
     tech_area: str = Field(description='Primary technology area of the company')
-    founded_year: Optional[int] = Field(None, description='Year when the company was founded')
-    headquarters: Optional[str] = Field(None, description='Location of headquarters')
     confidence_score: int = Field(description='Confidence score for the website (1-10)', ge=1, le=10)
     verification_notes: str = Field(description='Notes explaining the verification process')
 
@@ -46,7 +44,7 @@ class WebsiteSearchResult(BaseModel):
 
 # Create the website finder agent
 website_finder_agent = Agent(
-    'openai:gpt-4',
+    'openai:gpt-4o-mini',
     deps_type=WebsiteFinderDependencies,
     result_type=WebsiteSearchResult,
     system_prompt='''You are an expert at finding and verifying official websites for Indian technology startups.
