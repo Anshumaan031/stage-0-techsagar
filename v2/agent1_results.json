@@ -1,0 +1,109 @@
+{
+  "Blockchain": {
+    "tech_area": "Blockchain",
+    "companies": [
+      {
+        "name": "Valory",
+        "tech_area": "Blockchain",
+        "description": "An emerging Blockchain startup based in India."
+      },
+      {
+        "name": "Namefi",
+        "tech_area": "Blockchain",
+        "description": "An innovative Indian startup focused on Blockchain technology."
+      },
+      {
+        "name": "Powerloom Protocol",
+        "tech_area": "Blockchain",
+        "description": "This Indian startup uses Blockchain technology to create innovative solutions."
+      },
+      {
+        "name": "TRM",
+        "tech_area": "Blockchain",
+        "description": "TRM is a new Indian startup in the Blockchain domain."
+      },
+      {
+        "name": "Leap Wallet",
+        "tech_area": "Blockchain",
+        "description": "Leap Wallet is a Blockchain based startup in India."
+      },
+      {
+        "name": "Platter",
+        "tech_area": "Blockchain",
+        "description": "An Indian startup that provides Blockchain-based solutions."
+      },
+      {
+        "name": "Zoniqx",
+        "tech_area": "Blockchain",
+        "description": "Zoniqx is an emerging Indian Blockchain startup."
+      },
+      {
+        "name": "BrandBrahma",
+        "tech_area": "Blockchain",
+        "description": "BrandBrahma is a Blockchain startup operating in India."
+      },
+      {
+        "name": "CoinDCX",
+        "tech_area": "Blockchain",
+        "description": "An Indian Blockchain startup focused on financial services."
+      },
+      {
+        "name": "Hike",
+        "tech_area": "Blockchain",
+        "description": "Hike is an emerging Indian startup using Blockchain technology."
+      },
+      {
+        "name": "CoinSwitch",
+        "tech_area": "Blockchain",
+        "description": "CoinSwitch is a Blockchain-based financial services startup in India."
+      },
+      {
+        "name": "IndiGG",
+        "tech_area": "Blockchain",
+        "description": "IndiGG is a new Indian startup that uses Blockchain technology."
+      },
+      {
+        "name": "Liquide Solutions",
+        "tech_area": "Blockchain",
+        "description": "Liquide Solutions is an Indian Blockchain startup."
+      },
+      {
+        "name": "Vauld",
+        "tech_area": "Blockchain",
+        "description": "Vauld is an emerging Blockchain startup based in India."
+      },
+      {
+        "name": "Mudrex",
+        "tech_area": "Blockchain",
+        "description": "Mudrex is a Blockchain startup operating in India."
+      },
+      {
+        "name": "Bitbns",
+        "tech_area": "Blockchain",
+        "description": "Bitbns is an Indian startup that provides Blockchain-based solutions."
+      },
+      {
+        "name": "A3Logics Inc.",
+        "tech_area": "Blockchain",
+        "description": "A3Logics is a new and innovative Indian Blockchain startup."
+      },
+      {
+        "name": "Hypotenuse Labs",
+        "tech_area": "Blockchain",
+        "description": "Hypotenuse Labs is an Indian startup in the Blockchain domain."
+      },
+      {
+        "name": "Pixelette Technologies",
+        "tech_area": "Blockchain",
+        "description": "Pixelette Technologies is an emerging Indian Blockchain startup."
+      },
+      {
+        "name": "Suffescom Solutions Inc",
+        "tech_area": "Blockchain",
+        "description": "Suffescom Solutions is a Blockchain startup based in India."
+      }
+    ],
+    "summary": "The research found 20 emerging Indian startups in the Blockchain technology sector. These include Valory, Namefi, Powerloom Protocol, TRM, and Leap Wallet. Other promising startups in this sector include Platter, Zoniqx, BrandBrahma, CoinDCX, and Hike. Also notable are CoinSwitch, IndiGG, Liquide Solutions, Vauld, and Mudrex. The list also includes Bitbns, A3Logics Inc, Hypotenuse Labs, Pixelette Technologies, and Suffescom Solutions Inc. These startups are offering innovative solutions in the Blockchain sector.",
+    "query_used": "top emerging Indian startups in Blockchain technology funding recent innovation"
+  }
+}

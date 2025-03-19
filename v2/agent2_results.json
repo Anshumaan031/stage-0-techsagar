@@ -1,0 +1,59 @@
+{
+  "Blockchain": {
+    "tech_area": "Blockchain",
+    "validated_companies": [
+      {
+        "name": "Valory",
+        "is_indian": false,
+        "is_startup": true,
+        "founded_year": 2021,
+        "founders": "David Galindo, David Minarsch",
+        "headquarters": "Zug, Switzerland",
+        "funding_info": "Raised $4M in Seed Funding",
+        "validation_notes": "After thorough validation, it is apparent that Valory is not an Indian company. Although it is a startup (founded in 2021), its headquarters is in Zug, Switzerland, and it was not founded by Indians in India. The startup mentions Indian influence in their strategies and technologies, however, the core identity and establishment of the company does not fit the criteria of being an Indian startup."
+      },
+      {
+        "name": "Namefi",
+        "is_indian": false,
+        "is_startup": true,
+        "founded_year": 2023,
+        "founders": "Zainan Zhou, Victor Zhou, Sunny Cheng",
+        "headquarters": "Palo Alto, California, United States",
+        "funding_info": "The company has secured funding across 1 rounds, totaling in an amount of $2.6M. Their most recent funding was raised on February 29, 2024.",
+        "validation_notes": "Namefi is not an Indian company. It is based in Palo Alto, California, United States, and was founded by Zainan Zhou, Victor Zhou, and Sunny Cheng who do not appear to have Indian nationality. On the other hand, it qualifies as a startup because it was established in 2023 and has secured funding but is not publicly traded."
+      },
+      {
+        "name": "Powerloom Protocol",
+        "is_indian": false,
+        "is_startup": true,
+        "founded_year": 2020,
+        "founders": "Swaroop Hegde and Anomit Ghosh",
+        "headquarters": "Brooklyn, NY, United States",
+        "funding_info": "$3.1M funding over 1 round",
+        "validation_notes": "Powerloom Protocol is not an Indian company as it is based in United States. However, it can be considered a startup as it was founded in 2020, which is within the last 10 years. The company has raised $3.1M over 1 funding round."
+      },
+      {
+        "name": "TRM",
+        "is_indian": true,
+        "is_startup": true,
+        "founded_year": 2018,
+        "founders": "Esteban Castano and Rahul Raina",
+        "headquarters": "Gautam Budh Nagar",
+        "funding_info": "Raised a total funding of $150M over 6 rounds",
+        "validation_notes": "TRM is recognized as a startup by the Indian Government and was founded in 2018. It was co-founded by Esteban Castano and Rahul Raina, suggesting at least partial Indian origin. The company is based in Gautam Budh Nagar, India. In terms of funding, TRM has raised a total of $150M over 6 rounds, indicating that it's not a publicly traded large enterprise."
+      },
+      {
+        "name": "Leap Wallet",
+        "is_indian": false,
+        "is_startup": true,
+        "founded_year": 2021,
+        "founders": "Sanjeev Rao",
+        "headquarters": "Singapore",
+        "funding_info": "$3.2M over 2 rounds",
+        "validation_notes": "Leap Wallet has been identified as a startup founded in 2021, which falls within the 10-year window typically associated with startups. While the founder, Sanjeev Rao, is of Indian origin, the company is headquartered in Singapore, not in India. Therefore, it does not meet the criteria for being an Indian company. The company has raised $3.2M over 2 rounds, confirming its status as a startup that has raised capital but is not publicly traded."
+      }
+    ],
+    "summary": "Validation completed for 5 companies in the Blockchain sector. Found 1 valid Indian startups. 4 companies failed validation.",
+    "original_query": "top emerging Indian startups in Blockchain technology funding recent innovation"
+  }
+}

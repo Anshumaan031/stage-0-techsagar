@@ -1,0 +1,23 @@
+{
+  "Blockchain": {
+    "tech_area": "Blockchain",
+    "company_websites": [
+      {
+        "company_name": "TRM",
+        "websites": [
+          {
+            "company_name": "TRM Labs",
+            "official_website": "https://www.trmlabs.com/",
+            "tech_area": "Blockchain Intelligence",
+            "founded_year": null,
+            "headquarters": null,
+            "confidence_score": 10,
+            "verification_notes": "The official TRM Labs website was found and verified. The website's content is in line with the company's description and service offer as a blockchain intelligence firm. The design of the website is professional and the domain name matches the company name. I couldn't find any discrepancies or issues that could affect my confidence score."
+          }
+        ],
+        "summary": "1 official website found"
+      }
+    ],
+    "count": 1
+  }
+}
