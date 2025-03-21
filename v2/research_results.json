@@ -1,0 +1,19 @@
+{
+  "Blockchain": {
+    "tech_area": "Blockchain",
+    "companies": [
+      {
+        "name": "Biconomy",
+        "tech_area": "Blockchain Infrastructure",
+        "description": "Biconomy is a blockchain technology company focused on building infrastructure that simplifies the process of transactions on decentralized applications (dApps). They aim to make interactions with dApps seamless for users by offering superior gasless transactions and enhancing user experiences without the need for a crypto wallet."
+      },
+      {
+        "name": "Wuri",
+        "tech_area": "Blockchain Infrastructure",
+        "description": "Wuri provides a platform designed to cater to the complexities of decentralized finance (DeFi) and Web 3.0 applications. The startup emphasizes creating solutions that drive user engagement and decentralized governance while providing unique tools for developers to build and launch their products."
+      }
+    ],
+    "summary": "These two emerging startups, Biconomy and Wuri, are making significant strides in the blockchain infrastructure sector in India. With innovative solutions aimed at simplifying transactions and enhancing user experiences in the decentralized space, they represent the growing potential of blockchain technology in the Indian startup ecosystem.",
+    "query_used": "top emerging Indian startups in Blockchain technology funding recent innovation"
+  }
+}

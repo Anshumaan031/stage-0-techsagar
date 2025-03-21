@@ -9,6 +9,9 @@ from datetime import date
 import json
 
 from pydantic_ai import Agent, RunContext
+from pydantic_ai.models.gemini import GeminiModel
+from pydantic_ai.models.openai import OpenAIModel
+from pydantic_ai.providers.openai import OpenAIProvider
 from pydantic import BaseModel, Field
 from tavily import AsyncTavilyClient
 
@@ -38,9 +41,18 @@ class CompanyResearchResult(BaseModel):
     companies: List[CompanyInfo] = Field(description='List of companies with their details')
     summary: str = Field(description='Brief summary of the research results')
 
+#model = GeminiModel('gemini-2.0-flash', provider='google-gla')
+# model = OpenAIModel(
+#     'google/gemma-3-27b-it:free',
+#     provider=OpenAIProvider(
+#         base_url='https://openrouter.ai/api/v1',
+#         api_key='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',
+#     ),
+# )
+
 # Create the research agent
 company_research_agent = Agent(
-    'openai:gpt-4o-mini',
+    model='gpt-4o-mini',
     deps_type=ResearchDependencies,
     result_type=CompanyResearchResult,
     system_prompt='''You are an expert at researching emerging Indian technology startups.
@@ -53,7 +65,7 @@ company_research_agent = Agent(
        - Startups should be relatively new (ideally less than 7-10 years old)
        - Avoid large enterprises or well-known companies like TCS, Infosys, Wipro, etc.
     3. Prioritize companies with innovative approaches or technologies
-    4. Find at least 20 promising startups per technology area
+    4. Find just 2 promising startups per technology area
     5. Provide a brief description of what each company does
     
     DO NOT include any company unless you have high confidence it is an Indian startup.

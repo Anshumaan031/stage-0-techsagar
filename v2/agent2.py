@@ -9,6 +9,7 @@ from datetime import date
 import json
 
 from pydantic_ai import Agent, RunContext
+from pydantic_ai.models import GeminiModel
 from pydantic import BaseModel, Field
 from tavily import AsyncTavilyClient
 
@@ -43,9 +44,11 @@ class CompanyValidationResult(BaseModel):
     validated_companies: List[ValidationResult] = Field(description='List of validated companies with detailed information')
     summary: str = Field(description='Summary of the validation results')
 
+model = GeminiModel('gemini-2.0-flash', provider='google-gla')
+
 # Create the validation agent
 validation_agent = Agent(
-    'openai:gpt-4o-mini',
+    model=model,
     deps_type=ValidationDependencies,
     result_type=CompanyValidationResult,
     system_prompt='''You are an expert at validating Indian technology startups.

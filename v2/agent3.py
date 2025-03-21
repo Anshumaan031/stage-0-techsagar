@@ -9,6 +9,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from pydantic_ai import Agent, RunContext
+from pydantic_ai.models import GeminiModel
 from pydantic import BaseModel, Field
 from tavily import AsyncTavilyClient
 
@@ -42,9 +43,12 @@ class WebsiteSearchResult(BaseModel):
     websites: List[WebsiteInfo] = Field(description='List of verified company websites')
     summary: str = Field(description='Summary of the website search results')
 
+model = GeminiModel('gemini-2.0-flash', provider='google-gla')
+
+
 # Create the website finder agent
 website_finder_agent = Agent(
-    'openai:gpt-4o-mini',
+    model=model,
     deps_type=WebsiteFinderDependencies,
     result_type=WebsiteSearchResult,
     system_prompt='''You are an expert at finding and verifying official websites for Indian technology startups.

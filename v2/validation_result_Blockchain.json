@@ -2,206 +2,26 @@
   "tech_area": "Blockchain",
   "validated_companies": [
     {
-      "name": "Valory",
-      "is_indian": false,
-      "is_startup": true,
-      "founded_year": 2021,
-      "founders": "David Minarsch, David Galindo",
-      "headquarters": "Zug, Switzerland",
-      "funding_info": "Raised a total of $4M in 1 seed funding round",
-      "validation_notes": "Valory was founded by David Minarsch and David Galindo in 2021, which makes it a startup as per our criteria. However, its headquarters being in Zug, Switzerland, not in India, makes it non-Indian. Though it offers job positions in India, it is not based in or founded in India."
-    },
-    {
-      "name": "Namefi",
-      "is_indian": false,
-      "is_startup": true,
-      "founded_year": 2023,
-      "founders": "Victor Zhou",
-      "headquarters": "Palo Alto, California, United States",
-      "funding_info": "Raised funding from investors including Orange DAO and Foothill Ventures.",
-      "validation_notes": "Based on the research, Namefi is a startup founded by Victor Zhou in 2023, so it is relatively new and validates as a startup. And it's not an Indian company but based in Palo Alto, California, United States. The company is in the tech industry specializing in domain name assets and has raised funding from various investors."
-    },
-    {
-      "name": "Powerloom Protocol",
-      "is_indian": false,
-      "is_startup": true,
-      "founded_year": 2020,
-      "founders": "Swaroop Hegde and Anomit Ghosh",
-      "headquarters": "Delaware, United States",
-      "funding_info": "$3.1M over 1 round",
-      "validation_notes": "Though the founders of Powerloom Protocol are Indian, the company is not headquartered in India, hence it is not an Indian company. However, having been established in 2020 and raised a total of $3.1M, it meets the criteria for a startup."
-    },
-    {
-      "name": "TRM",
+      "name": "Primechain Technologies Pvt. Ltd.",
       "is_indian": true,
       "is_startup": true,
-      "founded_year": 2018,
-      "founders": "Esteban Casta\u00f1o, Rahul Raina",
-      "headquarters": "San Francisco, CA",
-      "funding_info": "Raised over $79M in funding, including $70M in Series B funding led by Thoma Bravo and Tiger Global.",
-      "validation_notes": "TRM is a startup founded in 2018 by Esteban Casta\u00f1o and Rahul Raina, it has raised significant funding, largely from a Series B round, indicating it is indeed a startup. It is recognized by the Indian government and one of the founders, Rahul Raina, is of Indian origin. However, it's headquartered in San Francisco, CA, but would still meet the criteria of an Indian company due to the origin of its founder."
+      "founded_year": 2016,
+      "founders": "Shinam Arora",
+      "headquarters": "Pune, Maharashtra",
+      "funding_info": "Primechain Technologies has not raised any funding rounds yet.",
+      "validation_notes": "Primechain Technologies is based in Pune, Maharashtra, India, and was founded in 2016 by Shinam Arora. It is classified as a startup since it is less than 10 years old and is not a large enterprise. The company is currently active with no reported funding rounds."
     },
     {
-      "name": "Leap Wallet",
-      "is_indian": false,
-      "is_startup": true,
-      "founded_year": 2021,
-      "founders": "Sanjeev Rao",
-      "headquarters": "Singapore",
-      "funding_info": "Raised a total funding of $3.2M over 2 rounds",
-      "validation_notes": "Leap Wallet is not an Indian company as its headquarters is located in Singapore. Additionally, although Leap's founder, Sanjeev Rao, has Indian roots, the company wasn't founded by him in India. It does, however, meet the criteria of being a startup as it was founded recently in 2021 and has raised funding."
-    },
-    {
-      "name": "Urban Platter",
-      "is_indian": true,
-      "is_startup": true,
-      "founded_year": 2015,
-      "founders": "Dhaval Kenia, Chirag Kenia",
-      "headquarters": "Mumbai, Maharashtra, India",
-      "funding_info": "Urban Platter has raised $3.43M. Who are Urban Platter's investors? Jubilant Bhartia Group has invested in",
-      "validation_notes": "Urban Platter qualifies as both an Indian company and a startup. The company is based in Mumbai, and its founders, Dhaval Kenia and Chirag Kenia, are Indian, making it an Indian company per the criteria. Founded in 2015, it fits within the startup time frame of being relatively new (within the last 10 years). Funding information further suggests that it's a startup, having raised $3.43 million, and it is not publicly traded."
-    },
-    {
-      "name": "Zoniqx",
-      "is_indian": false,
-      "is_startup": true,
-      "founded_year": 2017,
-      "founders": "Prasanth Kalangi and Sanjeev Birari",
-      "headquarters": "Silicon Valley, California, USA",
-      "funding_info": "Zoniqx is a funded company",
-      "validation_notes": "While Zoniqx was founded by Indians, Prasanth Kalangi and Sanjeev Birari, the company is headquartered in Silicon Valley, California, so it does not meet the criteria for an Indian company. The startup was founded in 2017, which means it is less than 10 years old, so it qualifies as a startup."
-    },
-    {
-      "name": "BrandBrahma",
-      "is_indian": true,
-      "is_startup": true,
-      "founded_year": 2020,
-      "founders": "Kamalesh Sapna Roy, Suresh Rathod",
-      "headquarters": "Mangalore, India",
-      "funding_info": "Secured funding across 1 rounds, totaling in an amount of $10K",
-      "validation_notes": "BrandBrahma is a Commerce and Shopping Startup from Mangalore founded in 2020 by Kamalesh Sapna Roy and Suresh Rathod, thereby meeting all the requirements for being classified as an Indian startup."
-    },
-    {
-      "name": "Signzy",
-      "is_indian": true,
-      "is_startup": true,
-      "founded_year": 2015,
-      "founders": null,
-      "headquarters": "New York City, New York",
-      "funding_info": null,
-      "validation_notes": "Signzy is an AI-powered FinTech company offering a digital onboarding solution for banks, NBFCs, and other financial institutions. Although it is currently headquartered in New York City, New York, it was founded in India in 2015, making it both an Indian startup and a young company."
-    },
-    {
-      "name": "Hyperlink InfoSystem",
+      "name": "Antier Solutions",
       "is_indian": true,
       "is_startup": false,
       "founded_year": 2011,
-      "founders": null,
-      "headquarters": "Ahmedabad, India",
-      "funding_info": null,
-      "validation_notes": "Hyperlink InfoSystem is indeed an Indian company as it is headquartered in Ahmedabad, India. However, it was founded in the year 2011, which makes it older than 10 years and therefore cannot be classified as a startup."
-    },
-    {
-      "name": "InstaDapp",
-      "is_indian": false,
-      "is_startup": true,
-      "founded_year": 2018,
-      "founders": "Samyak Jain, Sowmay Jain",
-      "headquarters": "Lewes, Delaware, United States",
-      "funding_info": "Has raised a total funding of $12.4M over 2 rounds",
-      "validation_notes": "Even though the founders are Indian, the company is headquartered in Delaware in the United States, therefore it can't be considered an Indian company. InstaDapp is a startup given that it was founded in 2018 and has raised multiple rounds of funding."
-    },
-    {
-      "name": "Debut Infotech",
-      "is_indian": true,
-      "is_startup": true,
-      "founded_year": 2011,
-      "founders": "Harpreet Dhillon, Gurpreet Singh",
+      "founders": "Vikram R Singh",
       "headquarters": "Mohali, Punjab, India",
-      "funding_info": "No reported funding",
-      "validation_notes": "Debut Infotech is based in Mohali, Punjab, India so it is an Indian company. It was founded in 2011 by Harpreet Dhillon and Gurpreet Singh, making it a startup as it was founded within the past 10 years. There is currently no reported funding for Debut Infotech."
-    },
-    {
-      "name": "Elemential",
-      "is_indian": true,
-      "is_startup": true,
-      "founded_year": 2015,
-      "founders": "Raunaq Vaisoha, Anil Dukkipatty and Sahil Kathpal",
-      "headquarters": "Mumbai, India",
-      "funding_info": "Elemential has raised a total funding of $1.01M over 2 rounds",
-      "validation_notes": "Elemential is an Indian startup based in Mumbai. It was founded by Indians: Raunaq Vaisoha, Anil Dukkipatty and Sahil Kathpal in 2015. The company has raised $1.01M of funding over 2 rounds."
-    },
-    {
-      "name": "MindDeft",
-      "is_indian": true,
-      "is_startup": true,
-      "founded_year": 2015,
-      "founders": "Manoj Dhanak",
-      "headquarters": "India",
-      "funding_info": "Minddeft has not raised any funding rounds yet. There are no Institutional or Angel investors in Minddeft.",
-      "validation_notes": "MindDeft is a blockchain solutions provider based in India. The company was founded by Manoj Dhanak in 2015. This places it within the startup time frame as it is not more than 10 years old. The company has not raised any funding yet and is not publicly traded which further supports it being a startup. Although it has operations in the USA and UK, it was founded and is based in India, making it an Indian company."
-    },
-    {
-      "name": "KoineArth",
-      "is_indian": false,
-      "is_startup": true,
-      "founded_year": 2018,
-      "founders": "Praphul Chandra",
-      "headquarters": "Singapore",
-      "funding_info": "KoineArth has raised $1.81M over 3 rounds. KoineArth's latest funding round was a Seed VC for $1.8M on March 5, 2021.",
-      "validation_notes": "Although KoineArth was founded by an Indian founder, Praphul Chandra, in 2018, it is based in Singapore, and hence not considered an Indian company. The company is indeed a startup since it was founded recently (within the last 10 years) and it has raised funding but is not publicly traded."
-    },
-    {
-      "name": "CoinDCX",
-      "is_indian": true,
-      "is_startup": true,
-      "founded_year": 2018,
-      "founders": "Sumit Gupta, Neeraj Khandelwal",
-      "headquarters": "India",
-      "funding_info": "CoinDCX has raised a total funding of $247M over 6 rounds. Its first funding round was on Mar 20, 2019. It doubled its valuation to $2.15 billion (post-money) in eight months following a fresh $135 million funding.",
-      "validation_notes": "CoinDCX was founded in India in 2018 by Sumit Gupta and Neeraj Khandelwal. The company is based in India and has made significant progress since its founding. It's a startup within the definition (founded within the last 10 years) and not publicly traded, indicating startup status, though it has a high valuation."
-    },
-    {
-      "name": "Matic Network (Polygon)",
-      "is_indian": true,
-      "is_startup": true,
-      "founded_year": 2017,
-      "founders": "Jaynti Kanani, Sandeep Nailwal, Anurag Arjun",
-      "headquarters": null,
-      "funding_info": null,
-      "validation_notes": "Polygon, formerly known as Matic Network, was launched in October 2017. It was co-founded by Indians Jaynti Kanani, Sandeep Nailwal, and Anurag Arjun. Despite its global reach and operations, the company's origin is Indian, thus satisfying our first criterion. As for the startup status, since the company was founded within the last 10 years, it satisfies our second criterion as well. However, the company's headquarters and funding information could not be found."
-    },
-    {
-      "name": "Nuo",
-      "is_indian": true,
-      "is_startup": true,
-      "founded_year": 2018,
-      "founders": "Ratnesh Ray, Siddharth Verma",
-      "headquarters": "India",
-      "funding_info": "Raised a total funding of $3.25M over 2 rounds from 10 investors.",
-      "validation_notes": "The company was founded by Ratnesh Ray and Siddharth Verma in 2018. It is based in India and has received funding, suggesting it is a genuine startup."
-    },
-    {
-      "name": "WazirX",
-      "is_indian": true,
-      "is_startup": true,
-      "founded_year": 2017,
-      "founders": "Nischal Shetty, Sameer Mhatre, Siddharth Menon",
-      "headquarters": "Mumbai, Maharashtra, India",
-      "funding_info": "The last funding round was on February 4, 2020.",
-      "validation_notes": "WazirX is an Indian company, founded by Indians, and its headquarters are located in Mumbai, India. The company was founded in 2017, making it a startup (defined as a company founded in the past 10 years). The company has also undergone funding rounds, which is a typical characteristic of startups."
-    },
-    {
-      "name": "Gulpie",
-      "is_indian": true,
-      "is_startup": true,
-      "founded_year": 2017,
-      "founders": "Sunil Tej",
-      "headquarters": "Bangalore, Karnataka, India",
-      "funding_info": "No public funding rounds yet",
-      "validation_notes": "The company, Gulpie, is a food recommendation system using AI and blockchain technology, founded by Sunil Tej in 2017. The company is based in Bangalore, Karnataka, India. The information available does not reflect any large-scale operations or affiliations that would classify it as an established company rather than a startup. Gulpie has not raised any public funding rounds yet, indicating it may still be in early stages of its business lifecycle. Despite some sources suggesting a location in San Francisco, the overall evidence strongly points towards it being a true Indian startup."
+      "funding_info": "Details about funding rounds are not provided, but they are recognized as a significant player in blockchain solutions.",
+      "validation_notes": "Antier Solutions is based in Mohali, Punjab, India, and was founded by Vikram R Singh in 2011. However, it is considered not a startup as it was founded over 10 years ago and has grown into a well-established corporation."
     }
   ],
-  "summary": "Validation completed for 20 companies in the Blockchain sector. Found 12 valid Indian startups. 8 companies failed validation.",
+  "summary": "Validation completed for 2 companies in the Blockchain sector. Found 1 valid Indian startups. 1 companies failed validation.",
   "original_query": "top emerging Indian startups in Blockchain technology funding recent innovation"
 }

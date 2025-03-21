@@ -2,106 +2,16 @@
   "tech_area": "Blockchain",
   "companies": [
     {
-      "name": "Valory",
+      "name": "Primechain Technologies",
       "tech_area": "Blockchain",
-      "description": "A top emerging Blockchain/Cryptocurrency startup in India"
+      "description": "Primechain Technologies focuses on blockchain-powered solutions for financial services, including cross-border payments and trade finance. Their innovations have been adopted by various banks in India."
     },
     {
-      "name": "Namefi",
+      "name": "Antier Solutions",
       "tech_area": "Blockchain",
-      "description": "Another top emerging Blockchain startup from India"
-    },
-    {
-      "name": "Powerloom Protocol",
-      "tech_area": "Blockchain",
-      "description": "An emerging Indian Blockchain startup"
-    },
-    {
-      "name": "TRM",
-      "tech_area": "Blockchain",
-      "description": "It's an emerging Blockchain startup based in India"
-    },
-    {
-      "name": "Leap Wallet",
-      "tech_area": "Blockchain",
-      "description": "An Indian startup active in the Blockchain sector"
-    },
-    {
-      "name": "Platter",
-      "tech_area": "Blockchain",
-      "description": "An upcoming Blockchain startup from India"
-    },
-    {
-      "name": "Zoniqx",
-      "tech_area": "Blockchain",
-      "description": "An emerging Indian Blockchain startup"
-    },
-    {
-      "name": "BrandBrahma",
-      "tech_area": "Blockchain",
-      "description": "A promising Blockchain startup in India"
-    },
-    {
-      "name": "Signzy",
-      "tech_area": "Blockchain",
-      "description": "Launched in Bangalore in 2015, it's one of the top blockchain startups in India."
-    },
-    {
-      "name": "Hyperlink InfoSystem",
-      "tech_area": "Blockchain",
-      "description": "A promising Blockchain startup based in India"
-    },
-    {
-      "name": "InstaDapp",
-      "tech_area": "Blockchain",
-      "description": "Another Indian startup in the Blockchain sector"
-    },
-    {
-      "name": "Debut Infotech",
-      "tech_area": "Blockchain",
-      "description": "A promising Blockchain development company based in India"
-    },
-    {
-      "name": "Elemential",
-      "tech_area": "Blockchain",
-      "description": "An Indian startup known for its Blockchain technology"
-    },
-    {
-      "name": "MindDeft",
-      "tech_area": "Blockchain",
-      "description": "A newly emerged Blockchain startup from India"
-    },
-    {
-      "name": "KoineArth",
-      "tech_area": "Blockchain",
-      "description": "Known as one of the top blockchain startups in India"
-    },
-    {
-      "name": "CoinDCX",
-      "tech_area": "Blockchain",
-      "description": "Launched in April 2018, it's among the leading Blockchain startups in India"
-    },
-    {
-      "name": "Matic Network",
-      "tech_area": "Blockchain",
-      "description": "Bengaluru-based blockchain technology startup, founded in 2017"
-    },
-    {
-      "name": "Nuo",
-      "tech_area": "Blockchain",
-      "description": "Emerging blockchain startup based in India"
-    },
-    {
-      "name": "WazirX",
-      "tech_area": "Blockchain",
-      "description": "A top Indian startup in the field of Blockchain technology"
-    },
-    {
-      "name": "Gulpie",
-      "tech_area": "Blockchain",
-      "description": "A promising Indian startup using AI and blockchain technology in their food recommender system"
+      "description": "Antier Solutions provides a wide range of blockchain services including coin development, DeFi development, crypto banking solutions, and NFT platforms, catering to businesses looking to leverage blockchain technology."
     }
   ],
-  "summary": "This research looked into numerous emerging Indian startups focused on Blockchain technology. The companies highlighted are all promising, extending from the sectors of cryptocurrency, financial services, AI integration to food recommendation systems. These startups are evidently contributing to the Blockchain technology landscape in India while simultaneously paving the way for future innovations in this area.",
+  "summary": "The analysis highlights two promising emerging Indian startups in blockchain technology. Primechain Technologies aims to innovate financial services with blockchain, while Antier Solutions offers comprehensive blockchain services for various applications.",
   "query_used": "top emerging Indian startups in Blockchain technology funding recent innovation"
 }
