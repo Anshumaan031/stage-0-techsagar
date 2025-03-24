@@ -12,3 +12,5 @@ devtools
 pydantic-ai
 mysql-connector-python
 flask
+logfire
+crew

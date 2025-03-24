@@ -2,24 +2,24 @@
   "tech_area": "Blockchain",
   "validated_companies": [
     {
-      "name": "Primechain Technologies Pvt. Ltd.",
+      "name": "Valory",
+      "is_indian": false,
+      "is_startup": true,
+      "founded_year": 2021,
+      "founders": "David Minarsch, David Galindo",
+      "headquarters": "Zug, Switzerland",
+      "funding_info": "Raised USD 4 million in seed funding in 2022 led by True.",
+      "validation_notes": "Valory is not an Indian company as it is headquartered in Zug, Switzerland, and was co-founded by individuals who are not confirmed to be Indian. It is classified as a startup as it was founded in 2021 and has raised funding."
+    },
+    {
+      "name": "GuardianLink",
       "is_indian": true,
       "is_startup": true,
       "founded_year": 2016,
-      "founders": "Shinam Arora",
-      "headquarters": "Pune, Maharashtra",
-      "funding_info": "Primechain Technologies has not raised any funding rounds yet.",
-      "validation_notes": "Primechain Technologies is based in Pune, Maharashtra, India, and was founded in 2016 by Shinam Arora. It is classified as a startup since it is less than 10 years old and is not a large enterprise. The company is currently active with no reported funding rounds."
-    },
-    {
-      "name": "Antier Solutions",
-      "is_indian": true,
-      "is_startup": false,
-      "founded_year": 2011,
-      "founders": "Vikram R Singh",
-      "headquarters": "Mohali, Punjab, India",
-      "funding_info": "Details about funding rounds are not provided, but they are recognized as a significant player in blockchain solutions.",
-      "validation_notes": "Antier Solutions is based in Mohali, Punjab, India, and was founded by Vikram R Singh in 2011. However, it is considered not a startup as it was founded over 10 years ago and has grown into a well-established corporation."
+      "founders": "Ramkumar Subramaniam, Arjun Reddy, Kameshwaran Elangovan",
+      "headquarters": "Chennai, Tamil Nadu",
+      "funding_info": "Raised $12M in Series A round from Kalaari Capital in November 2021.",
+      "validation_notes": "GuardianLink is based in Chennai, India and was founded in 2016. The founders are Indian nationals, comprising Ramkumar Subramaniam, Arjun Reddy, and Kameshwaran Elangovan. The company has raised funding, indicating it is still in the startup phase and not a well-established corporation."
     }
   ],
   "summary": "Validation completed for 2 companies in the Blockchain sector. Found 1 valid Indian startups. 1 companies failed validation.",

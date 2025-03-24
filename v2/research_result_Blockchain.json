@@ -2,16 +2,16 @@
   "tech_area": "Blockchain",
   "companies": [
     {
-      "name": "Primechain Technologies",
-      "tech_area": "Blockchain",
-      "description": "Primechain Technologies focuses on blockchain-powered solutions for financial services, including cross-border payments and trade finance. Their innovations have been adopted by various banks in India."
+      "name": "Valory",
+      "tech_area": "Blockchain/Cryptocurrency",
+      "description": "Valory aims to enable users to exchange cryptocurrencies more easily by creating decentralized finance (DeFi) applications and digital asset management services."
     },
     {
-      "name": "Antier Solutions",
-      "tech_area": "Blockchain",
-      "description": "Antier Solutions provides a wide range of blockchain services including coin development, DeFi development, crypto banking solutions, and NFT platforms, catering to businesses looking to leverage blockchain technology."
+      "name": "GuardianLink",
+      "tech_area": "Blockchain/Gaming",
+      "description": "GuardianLink focuses on blockchain technology for gaming, providing solutions for developers to create and monetize games using NFTs (Non-Fungible Tokens) and blockchain infrastructure."
     }
   ],
-  "summary": "The analysis highlights two promising emerging Indian startups in blockchain technology. Primechain Technologies aims to innovate financial services with blockchain, while Antier Solutions offers comprehensive blockchain services for various applications.",
+  "summary": "The emerging blockchain startup landscape in India is vibrant, with innovative companies focusing on various applications such as decentralized finance and gaming solutions. Noteworthy startups include Valory and GuardianLink.",
   "query_used": "top emerging Indian startups in Blockchain technology funding recent innovation"
 }

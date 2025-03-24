@@ -21,10 +21,15 @@ CORS(app)
 
 # Helper function to run async functions in sync context
 def run_async(coro):
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
+    try:
+        loop = asyncio.get_event_loop()
+    except RuntimeError:
+        # If no event loop exists, create a new one
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+    
     result = loop.run_until_complete(coro)
-    loop.close()
+    # Don't close the loop here
     return result
 
 # Agent 1 Endpoint - Research Indian Startups in Tech Area

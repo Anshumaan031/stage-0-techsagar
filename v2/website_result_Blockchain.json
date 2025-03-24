@@ -2,26 +2,26 @@
   "tech_area": "Blockchain",
   "company_websites": [
     {
-      "company_name": "Primechain Technologies Pvt. Ltd.",
+      "company_name": "GuardianLink",
       "websites": [
         {
-          "company_name": "Primechain Technologies Pvt. Ltd.",
-          "official_website": "http://www.primechaintech.com",
-          "tech_area": "Blockchain Solutions",
-          "confidence_score": 7,
-          "verification_notes": "The official website found at primechaintech.com appears to be valid based on several sources including contact details aligned with Indian standards. Various references point to this domain as the authoritative source; however, the site content does not fully establish its branding, leading to a score of 7. The presence of their email address and a registered office in Pune also supports this validation."
+          "company_name": "GuardianLink",
+          "official_website": "https://www.guardianlink.io/",
+          "tech_area": "Blockchain, NFT",
+          "confidence_score": 9,
+          "verification_notes": "Verified the website through multiple sources like LinkedIn, Crunchbase, and other directory websites. The domain name matches the company name. The website includes information about their services, and contact information, and mentions their location in Chennai, India. Although a Singapore address is listed on their contact page, other sources confirm their Chennai presence."
         }
       ],
-      "summary": "Successfully identified and verified the official website for Primechain Technologies Pvt. Ltd. with a moderate confidence score."
+      "summary": "I have found the official website for GuardianLink. I verified it using multiple sources including LinkedIn, Crunchbase and other directory websites. The domain name matches the company name. The website includes information about their services, contact information, and mentions their location in Chennai, India."
     }
   ],
   "count": 1,
   "high_confidence_websites": [
     {
-      "name": "Primechain Technologies Pvt. Ltd.",
-      "website": "http://www.primechaintech.com",
-      "tech_area": "Blockchain Solutions",
-      "confidence": 7
+      "name": "GuardianLink",
+      "website": "https://www.guardianlink.io/",
+      "tech_area": "Blockchain, NFT",
+      "confidence": 9
     }
   ]
 }
