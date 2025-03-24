@@ -10,7 +10,8 @@ from dotenv import load_dotenv
 from agent1 import research_tech_area
 from agent2 import validate_companies
 from agent3 import find_company_website, ensure_results_directory
-from flask_cors import CORS  
+from flask_cors import CORS
+#from utils import save_website_data  
 
 # Load environment variables
 load_dotenv()
@@ -94,54 +95,48 @@ def find_websites():
         data = request.json
         
         if not data or 'tech_area' not in data or 'validated_companies' not in data:
-            return jsonify({'error': 'Tech area and companies are required'}), 400
+            return jsonify({'error': 'Tech_area and validated_companies are required'}), 400
         
         tech_area = data['tech_area']
         companies = data['validated_companies']
-        
+
         # Filter for companies where both is_indian and is_startup are True
         valid_companies = [
             company for company in companies 
             if company.get('is_indian') is True and company.get('is_startup') is True
         ]
         
-        if not valid_companies:
-            return jsonify({
-                'tech_area': tech_area,
-                'company_websites': [],
-                'count': 0,
-                'high_confidence_websites': [],
-                'message': 'No valid Indian startups found to search for websites.'
-            })
-        
-        # Process each valid company to find its website
+        # Process each company to find its website
         results = []
-        new_websites = []  # Renamed for clarity
+        all_websites = []
         
         for company in valid_companies:
-            # Call agent3's website finder function
+            # Calling agent3's website finder function
             website_result = run_async(find_company_website(company, tech_area))
             results.append(website_result)
             
             # Extract high confidence websites
             for website_info in website_result.get('websites', []):
-                if website_info.get('confidence_score', 0) >= 7:  # Only include high confidence websites
-                    new_websites.append({
+                if website_info.get('confidence_score', 0) >= 7:
+                    all_websites.append({
                         'name': website_info['company_name'],
                         'website': website_info['official_website'],
                         'tech_area': website_info['tech_area'],
                         'confidence': website_info['confidence_score']
                     })
         
-        # Create response with ONLY new websites
+        # Save the high confidence websites to the existing companies table
+        #save_website_data(all_websites)
+        
+        # Create full response
         response = {
             'tech_area': tech_area,
             'company_websites': results,
             'count': len(results),
-            'high_confidence_websites': new_websites.copy()  # Make a copy to ensure it's not modified
+            'high_confidence_websites': all_websites
         }
         
-        # Save results to files
+        # Save results to files (optional)
         with open(f"website_result_{tech_area.replace(' ', '_')}.json", "w") as f:
             json.dump(response, f, indent=2)
         
@@ -158,15 +153,13 @@ def find_websites():
             except:
                 pass
         
-        # Create combined list for saving to file
-        combined_websites = new_websites.copy()
-        combined_websites.extend(existing_websites)
+        # Merge new websites with existing ones
+        all_websites.extend(existing_websites)
         
         # Write back to file
         with open(consolidated_file, "w") as f:
-            json.dump(combined_websites, f, indent=2)
+            json.dump(all_websites, f, indent=2)
         
-        # Return only the new results
         return jsonify(response)
     
     except Exception as e:

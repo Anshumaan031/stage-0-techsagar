@@ -2,25 +2,44 @@
   "tech_area": "Blockchain",
   "company_websites": [
     {
-      "company_name": "GuardianLink",
+      "company_name": "Rario",
       "websites": [
         {
-          "company_name": "GuardianLink",
-          "official_website": "https://www.guardianlink.io/",
-          "tech_area": "Blockchain, NFT",
+          "company_name": "Rario",
+          "official_website": "https://www.rario.com/",
+          "tech_area": "Software Development",
           "confidence_score": 9,
-          "verification_notes": "Verified the website through multiple sources like LinkedIn, Crunchbase, and other directory websites. The domain name matches the company name. The website includes information about their services, and contact information, and mentions their location in Chennai, India. Although a Singapore address is listed on their contact page, other sources confirm their Chennai presence."
+          "verification_notes": "The domain name matches the company name, and the website content confirms it's the official site for Rario, a cricket digital collectibles platform. The LinkedIn page also links to this website."
         }
       ],
-      "summary": "I have found the official website for GuardianLink. I verified it using multiple sources including LinkedIn, Crunchbase and other directory websites. The domain name matches the company name. The website includes information about their services, contact information, and mentions their location in Chennai, India."
+      "summary": "I found the official website for Rario."
+    },
+    {
+      "company_name": "Soulverse",
+      "websites": [
+        {
+          "company_name": "Soulverse",
+          "official_website": "https://soulverse.us/",
+          "tech_area": "Digital Identity",
+          "confidence_score": 9,
+          "verification_notes": "The domain name matches the company name. The website content confirms it's the official site for Soulverse, a digital identity company. The website mentions Dehradun, India, as one of its locations. I am very confident that this is their official website."
+        }
+      ],
+      "summary": "I found the official website for Soulverse. It appears to be a US-based company with operations in India."
     }
   ],
-  "count": 1,
+  "count": 2,
   "high_confidence_websites": [
     {
-      "name": "GuardianLink",
-      "website": "https://www.guardianlink.io/",
-      "tech_area": "Blockchain, NFT",
+      "name": "Rario",
+      "website": "https://www.rario.com/",
+      "tech_area": "Software Development",
+      "confidence": 9
+    },
+    {
+      "name": "Soulverse",
+      "website": "https://soulverse.us/",
+      "tech_area": "Digital Identity",
       "confidence": 9
     }
   ]

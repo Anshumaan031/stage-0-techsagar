@@ -2,16 +2,16 @@
   "tech_area": "Blockchain",
   "companies": [
     {
-      "name": "Valory",
-      "tech_area": "Blockchain/Cryptocurrency",
-      "description": "Valory aims to enable users to exchange cryptocurrencies more easily by creating decentralized finance (DeFi) applications and digital asset management services."
+      "name": "Rario",
+      "tech_area": "Blockchain",
+      "description": "Capitalizes on India\u2019s cricket fandom by offering NFTs of iconic sports moments, blending blockchain with cultural passions."
     },
     {
-      "name": "GuardianLink",
-      "tech_area": "Blockchain/Gaming",
-      "description": "GuardianLink focuses on blockchain technology for gaming, providing solutions for developers to create and monetize games using NFTs (Non-Fungible Tokens) and blockchain infrastructure."
+      "name": "Soulverse",
+      "tech_area": "Blockchain",
+      "description": "Built a 360-degree decentralized identity infrastructure addressing the real challenge in the digital identity space"
     }
   ],
-  "summary": "The emerging blockchain startup landscape in India is vibrant, with innovative companies focusing on various applications such as decentralized finance and gaming solutions. Noteworthy startups include Valory and GuardianLink.",
+  "summary": "Two emerging Indian startups in the Blockchain technology area are Rario and Soulverse. Rario uses blockchain for sports-related NFTs, and Soulverse is focused on decentralized digital identity solutions..",
   "query_used": "top emerging Indian startups in Blockchain technology funding recent innovation"
 }

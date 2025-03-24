@@ -48,8 +48,8 @@ model = GeminiModel('gemini-2.0-flash', provider='google-gla')
 
 # Create the validation agent
 validation_agent = Agent(
-    #model=model,
-    'gpt-4o-mini',
+    model=model,
+    #'gpt-4o-mini',
     deps_type=ValidationDependencies,
     result_type=CompanyValidationResult,
     system_prompt='''You are an expert at validating Indian technology startups.

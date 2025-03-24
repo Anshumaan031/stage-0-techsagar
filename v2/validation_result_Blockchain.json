@@ -2,26 +2,26 @@
   "tech_area": "Blockchain",
   "validated_companies": [
     {
-      "name": "Valory",
-      "is_indian": false,
-      "is_startup": true,
-      "founded_year": 2021,
-      "founders": "David Minarsch, David Galindo",
-      "headquarters": "Zug, Switzerland",
-      "funding_info": "Raised USD 4 million in seed funding in 2022 led by True.",
-      "validation_notes": "Valory is not an Indian company as it is headquartered in Zug, Switzerland, and was co-founded by individuals who are not confirmed to be Indian. It is classified as a startup as it was founded in 2021 and has raised funding."
-    },
-    {
-      "name": "GuardianLink",
+      "name": "Rario",
       "is_indian": true,
       "is_startup": true,
-      "founded_year": 2016,
-      "founders": "Ramkumar Subramaniam, Arjun Reddy, Kameshwaran Elangovan",
-      "headquarters": "Chennai, Tamil Nadu",
-      "funding_info": "Raised $12M in Series A round from Kalaari Capital in November 2021.",
-      "validation_notes": "GuardianLink is based in Chennai, India and was founded in 2016. The founders are Indian nationals, comprising Ramkumar Subramaniam, Arjun Reddy, and Kameshwaran Elangovan. The company has raised funding, indicating it is still in the startup phase and not a well-established corporation."
+      "founded_year": 2021,
+      "founders": "Ankit Wadhwa, Sunny Bhanot",
+      "headquarters": "Gurugram, Haryana",
+      "funding_info": null,
+      "validation_notes": "Rario is based in India and was founded in 2021, making it a relatively new company. It has also raised funding, indicating it's a startup."
+    },
+    {
+      "name": "Soulverse",
+      "is_indian": true,
+      "is_startup": true,
+      "founded_year": 2021,
+      "founders": "Kavitha Kanaparthi",
+      "headquarters": "Kalamazoo, United States/Dehradun, Uttarakhand, IN",
+      "funding_info": "No funding rounds raised yet",
+      "validation_notes": "Soulverse is based in India and was founded in 2021, making it a relatively new company. Kavitha Kanaparthi is the founder. The company has not raised any funding rounds yet and focuses on decentralized identity solutions."
     }
   ],
-  "summary": "Validation completed for 2 companies in the Blockchain sector. Found 1 valid Indian startups. 1 companies failed validation.",
+  "summary": "Validation completed for 2 companies in the Blockchain sector. Found 2 valid Indian startups. 0 companies failed validation.",
   "original_query": "top emerging Indian startups in Blockchain technology funding recent innovation"
 }

@@ -1,0 +1,27 @@
+{
+  "tech_area": "Cloud Computing",
+  "validated_companies": [
+    {
+      "name": "Sysnik",
+      "is_indian": true,
+      "is_startup": true,
+      "founded_year": 2016,
+      "founders": null,
+      "headquarters": "Pune, Maharashtra, India",
+      "funding_info": null,
+      "validation_notes": "Founded in 2016 in India. Headquarters in Pune, Maharashtra."
+    },
+    {
+      "name": "Rapyder Cloud Solutions",
+      "is_indian": true,
+      "is_startup": true,
+      "founded_year": 2016,
+      "founders": "Amit Gupta and Athreya Ramadas",
+      "headquarters": "Bengaluru, Karnataka",
+      "funding_info": "$167K",
+      "validation_notes": "Founded in India in 2016 by Indian founders. They have raised funding and are not an established enterprise."
+    }
+  ],
+  "summary": "Validation completed for 2 companies in the Cloud Computing sector. Found 2 valid Indian startups. 0 companies failed validation.",
+  "original_query": "top emerging Indian startups in Cloud Computing technology funding recent innovation"
+}

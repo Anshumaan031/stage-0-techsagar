@@ -1,0 +1,46 @@
+{
+  "tech_area": "Cloud Computing",
+  "company_websites": [
+    {
+      "company_name": "Sysnik",
+      "websites": [
+        {
+          "company_name": "Sysnik IT Solutions",
+          "official_website": "http://www.sysnik.com",
+          "tech_area": "Information Technology and Services",
+          "confidence_score": 8,
+          "verification_notes": "The official website for Sysnik IT Solutions is http://www.sysnik.com. This domain name closely matches the company name and contains relevant information about the company's services. Additional verification from multiple sources, including business directories and corporate registration information, confirms it's their official site. The website includes professional design and contact details consistent with Indian operations, reinforcing its authenticity. It is well maintained but lacks extensive contact details or physical address verification on the site itself."
+        }
+      ],
+      "summary": "Validated the official website for Sysnik IT Solutions with a high confidence score based on domain verification, content authenticity, and multiple corroborating sources."
+    },
+    {
+      "company_name": "Rapyder Cloud Solutions",
+      "websites": [
+        {
+          "company_name": "Rapyder Cloud Solutions",
+          "official_website": "https://www.rapyder.com/",
+          "tech_area": "Cloud Computing Solutions",
+          "confidence_score": 9,
+          "verification_notes": "The official website for Rapyder Cloud Solutions is https://www.rapyder.com/. I confirmed this through multiple sources, including their profile on ZoomInfo listing the website as official, and content on the site that aligns with the company's services, including cloud consulting, migration, and managed services. The domain closely matches the company name, and the content confirms it's their official site. The contact information on the website also includes an Indian address. The website looks professionally developed and maintained."
+        }
+      ],
+      "summary": "Successfully identified the official website for Rapyder Cloud Solutions with high confidence."
+    }
+  ],
+  "count": 2,
+  "high_confidence_websites": [
+    {
+      "name": "Sysnik IT Solutions",
+      "website": "http://www.sysnik.com",
+      "tech_area": "Information Technology and Services",
+      "confidence": 8
+    },
+    {
+      "name": "Rapyder Cloud Solutions",
+      "website": "https://www.rapyder.com/",
+      "tech_area": "Cloud Computing Solutions",
+      "confidence": 9
+    }
+  ]
+}

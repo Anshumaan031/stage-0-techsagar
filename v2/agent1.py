@@ -54,8 +54,8 @@ model = GeminiModel('gemini-2.0-flash', provider='google-gla')
 
 # Create the research agent
 company_research_agent = Agent(
-    #model=model,
-    'gpt-4o-mini',
+    model=model,
+    #'gpt-4o-mini',
     deps_type=ResearchDependencies,
     result_type=CompanyResearchResult,
     system_prompt='''You are an expert at researching emerging Indian technology startups.

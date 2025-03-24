@@ -1,0 +1,107 @@
+{
+  "tech_area": "Cloud Computing and Virtualization",
+  "validated_companies": [
+    {
+      "name": "Agrahyah Technologies",
+      "is_indian": true,
+      "is_startup": true,
+      "founded_year": 2017,
+      "founders": "Rushabh Vasa, Sreeraman Thiagarajan, Uppal Shah",
+      "headquarters": "Mumbai, Maharashtra, India",
+      "funding_info": "Raised $1 million in a pre-series A funding round in July 2019",
+      "validation_notes": "Agrahyah Technologies meets both criteria for being an Indian startup. It is based in Mumbai, India and was founded in 2017 by Indians Rushabh Vasa, Sreeraman Thiagarajan, and Uppal Shah. The company is relatively new and has raised funding, categorizing it as a startup."
+    },
+    {
+      "name": "Alpha Cloud Technologies",
+      "is_indian": true,
+      "is_startup": true,
+      "founded_year": 2020,
+      "founders": "Mahesh Arumugam",
+      "headquarters": "Chennai, Tamil Nadu, India",
+      "funding_info": "Currently unfunded, operating as a privately held company with limited employees.",
+      "validation_notes": "Alpha Cloud Technologies is based in Chennai, India, and was founded in 2020, making it a recent startup. The founder Mahesh Arumugam is of Indian nationality. The company has not yet raised any external funding."
+    },
+    {
+      "name": "Bharath Cloud",
+      "is_indian": true,
+      "is_startup": true,
+      "founded_year": 2014,
+      "founders": "Padma Reddy Sama, Rahul Takkallapally",
+      "headquarters": "Hyderabad, Telangana, India",
+      "funding_info": "Funding details are unspecified but the company has shown growth in cloud technology services.",
+      "validation_notes": "Bharath Cloud is an Indian company based in Hyderabad, Telangana, founded in 2014 by Indian nationals. Although the specific funding information is not detailed, it operates in the startup space focusing on cloud technology solutions."
+    },
+    {
+      "name": "Cspro Technology (OPC) Private Limited",
+      "is_indian": true,
+      "is_startup": true,
+      "founded_year": 2020,
+      "founders": "Chandra Prakash Gupta, Sachin Mathur",
+      "headquarters": "Delhi, India",
+      "funding_info": "Raised funding over 1 round from 1 investor; latest funding round on Apr 19, 2024 (amount undisclosed).",
+      "validation_notes": "Cspro Technology (OPC) Private Limited was founded in December 2020 and is headquartered in Delhi, India, making it an Indian startup. The founders are Chandra Prakash Gupta and Sachin Mathur, both of whom are Indian nationals. The company operates in the tech sector and has raised funding, but it is not publicly traded, fitting the definition of a startup."
+    },
+    {
+      "name": "Rapyder Cloud Solutions",
+      "is_indian": true,
+      "is_startup": true,
+      "founded_year": 2017,
+      "founders": "Amit Gupta, Athreya",
+      "headquarters": "Bengaluru, Karnataka, India",
+      "funding_info": "Details about funding not explicitly mentioned, but recognized as an AWS consulting partner.",
+      "validation_notes": "Rapyder Cloud Solutions is headquartered in Bengaluru, Karnataka, India, and was founded by Indians in 2017. It qualifies as a startup due to its recent establishment and it is not a large enterprise. While specific funding details are not mentioned, its recognition as an AWS consulting partner suggests it has engaged in significant business activities typical of startups."
+    },
+    {
+      "name": "Utho",
+      "is_indian": true,
+      "is_startup": false,
+      "founded_year": 2010,
+      "founders": "Kusum Dhanda, Manoj Dhanda",
+      "headquarters": "Noida, Uttar Pradesh, India",
+      "funding_info": "Utho is primarily mentioned as an unfunded startup but has participated in various business activities and partnerships.",
+      "validation_notes": "Utho is based in India with headquarters in Noida. It was founded by Indians Kusum Dhanda and Manoj Dhanda in 2010. Although it is deeply involved in the cloud computing sector and has positioned itself as a startup, as of the latest information, it has become prominent within its market and has been operational for over 12 years, thus placing it outside the typical startup category."
+    },
+    {
+      "name": "Vuenow Infotech Pvt Ltd",
+      "is_indian": true,
+      "is_startup": true,
+      "founded_year": 2019,
+      "founders": "Sukhwinder Singh Kharour, Rahul Bhargav, Abhaydeep Mutti",
+      "headquarters": "Noida, Uttar Pradesh, India",
+      "funding_info": "Raised a total funding of $84.6K over 1 round from 4 investors, last funding round on May 27, 2023.",
+      "validation_notes": "Vuenow Infotech is an Indian company headquartered in Noida, Uttar Pradesh, founded in 2019 by Indian nationals. It is classified as a startup because it was founded within the last 10 years and has raised a small amount of funding, indicating early-stage growth. It is actively involved in the ITaaS sector, focusing on infrastructure as a service."
+    },
+    {
+      "name": "Accuknox",
+      "is_indian": true,
+      "is_startup": true,
+      "founded_year": 2020,
+      "founders": "Nat Natraj, Asif Ali, Phil Porras, Rahul Jadhav",
+      "headquarters": "Bengaluru, India",
+      "funding_info": "Accuknox has raised a total of $10.61M over multiple rounds, including a successful seed round of $4.6M in April 2021.",
+      "validation_notes": "Accuknox is based in Bengaluru, India, and was founded in 2020 by Indian nationals. It is classified as a startup due to its recent establishment and its ongoing funding efforts. The company operates in cloud security and has raised significant funds, evidencing its startup status."
+    },
+    {
+      "name": "PingSafe",
+      "is_indian": true,
+      "is_startup": true,
+      "founded_year": 2021,
+      "founders": "Anand Prakash, Nishant Mittal",
+      "headquarters": "Bangalore, India",
+      "funding_info": "Raised $3.3 million in seed funding led by Surge and Peak XV Partners.",
+      "validation_notes": "PingSafe is an Indian company founded by Anand Prakash and Nishant Mittal, both of whom are Indian nationals. The company was founded in 2021 and is headquartered in Bangalore, India, thus fulfilling the criteria for being an Indian company. It is classified as a startup due to its recent foundation, its employee count (less than 100), and its funding status."
+    },
+    {
+      "name": "CoreStack",
+      "is_indian": true,
+      "is_startup": true,
+      "founded_year": 2016,
+      "founders": "Ezhilarasan Natarajan, Krishnakumar Narayanan, Sabapathy Arumugam, Thiruvalluvar N B.",
+      "headquarters": "Chennai, Tamil Nadu, India; also has presence in Bellevue, Washington, USA.",
+      "funding_info": "Total funding of $45.7 million over 4 rounds with Series B funding of $30 million in 2021.",
+      "validation_notes": "CoreStack is a startup founded in 2016 by Indian founders. Its registered address is in India, and it is actively operating from Chennai. Although its main office is in Bellevue, Washington, its Indian operations are integral and it was founded by Indians. It has raised substantial funding, thus validating its status as a startup."
+    }
+  ],
+  "summary": "Validation completed for 10 companies in the Cloud Computing and Virtualization sector. Found 9 valid Indian startups. 1 companies failed validation.",
+  "original_query": "top emerging Indian startups in Cloud Computing and Virtualization technology funding recent innovation"
+}
