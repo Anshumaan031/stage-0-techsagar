@@ -2,44 +2,44 @@
   "tech_area": "Cloud Computing",
   "company_websites": [
     {
-      "company_name": "Sysnik",
+      "company_name": "Agrahyah Technologies",
       "websites": [
         {
-          "company_name": "Sysnik IT Solutions",
-          "official_website": "http://www.sysnik.com",
-          "tech_area": "Information Technology and Services",
-          "confidence_score": 8,
-          "verification_notes": "The official website for Sysnik IT Solutions is http://www.sysnik.com. This domain name closely matches the company name and contains relevant information about the company's services. Additional verification from multiple sources, including business directories and corporate registration information, confirms it's their official site. The website includes professional design and contact details consistent with Indian operations, reinforcing its authenticity. It is well maintained but lacks extensive contact details or physical address verification on the site itself."
+          "company_name": "Agrahyah Technologies",
+          "official_website": "https://www.agrahyah.com",
+          "tech_area": "Software Development / AI Solutions",
+          "confidence_score": 9,
+          "verification_notes": "The official website found is www.agrahyah.com, which closely matches the company name. The site contains detailed information about the company's offerings, confirms its status as an AI solutions provider, and includes Indian contact details. The website is professionally developed with clear branding and content consistent with a legitimate company website."
         }
       ],
-      "summary": "Validated the official website for Sysnik IT Solutions with a high confidence score based on domain verification, content authenticity, and multiple corroborating sources."
+      "summary": "Successfully verified the official website of Agrahyah Technologies."
     },
     {
-      "company_name": "Rapyder Cloud Solutions",
+      "company_name": "Alpha Cloud Technologies",
       "websites": [
         {
-          "company_name": "Rapyder Cloud Solutions",
-          "official_website": "https://www.rapyder.com/",
-          "tech_area": "Cloud Computing Solutions",
+          "company_name": "Alpha Cloud Technologies",
+          "official_website": "https://www.alphacloudtech.com/",
+          "tech_area": "IT Services and IT Consulting",
           "confidence_score": 9,
-          "verification_notes": "The official website for Rapyder Cloud Solutions is https://www.rapyder.com/. I confirmed this through multiple sources, including their profile on ZoomInfo listing the website as official, and content on the site that aligns with the company's services, including cloud consulting, migration, and managed services. The domain closely matches the company name, and the content confirms it's their official site. The contact information on the website also includes an Indian address. The website looks professionally developed and maintained."
+          "verification_notes": "I located the official website for Alpha Cloud Technologies at https://www.alphacloudtech.com/. The domain name closely matches the company name, confirming its authenticity. The content on the site discusses their expertise in SaaS products and other IT services, aligning with what would be expected from a legitimate business offering such services. Additionally, the site's presentation is professional and well-maintained. I found no conflicting information suggesting it's anything other than an official site. The contact information includes Indian references, further supporting its legitimacy."
         }
       ],
-      "summary": "Successfully identified the official website for Rapyder Cloud Solutions with high confidence."
+      "summary": "One official website found for Alpha Cloud Technologies with high confidence in its authenticity."
     }
   ],
   "count": 2,
   "high_confidence_websites": [
     {
-      "name": "Sysnik IT Solutions",
-      "website": "http://www.sysnik.com",
-      "tech_area": "Information Technology and Services",
-      "confidence": 8
+      "name": "Agrahyah Technologies",
+      "website": "https://www.agrahyah.com",
+      "tech_area": "Software Development / AI Solutions",
+      "confidence": 9
     },
     {
-      "name": "Rapyder Cloud Solutions",
-      "website": "https://www.rapyder.com/",
-      "tech_area": "Cloud Computing Solutions",
+      "name": "Alpha Cloud Technologies",
+      "website": "https://www.alphacloudtech.com/",
+      "tech_area": "IT Services and IT Consulting",
       "confidence": 9
     }
   ]

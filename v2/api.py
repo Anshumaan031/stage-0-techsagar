@@ -11,7 +11,7 @@ from agent1 import research_tech_area
 from agent2 import validate_companies
 from agent3 import find_company_website, ensure_results_directory
 from flask_cors import CORS
-#from utils import save_website_data  
+from utils.db import save_website_data  
 
 # Load environment variables
 load_dotenv()
@@ -126,7 +126,7 @@ def find_websites():
                     })
         
         # Save the high confidence websites to the existing companies table
-        #save_website_data(all_websites)
+        save_website_data(all_websites)
         
         # Create full response
         response = {

@@ -2,24 +2,24 @@
   "tech_area": "Cloud Computing",
   "validated_companies": [
     {
-      "name": "Sysnik",
+      "name": "Agrahyah Technologies",
       "is_indian": true,
       "is_startup": true,
-      "founded_year": 2016,
-      "founders": null,
-      "headquarters": "Pune, Maharashtra, India",
+      "founded_year": 2017,
+      "founders": "Sreeraman Thiagarajan, Rushabh Vasa, and Uppal Shah",
+      "headquarters": "Mumbai, India",
       "funding_info": null,
-      "validation_notes": "Founded in 2016 in India. Headquarters in Pune, Maharashtra."
+      "validation_notes": "Founded in 2017 by Indian founders and based in Mumbai, India. It has also raised funding and is not an established corporation."
     },
     {
-      "name": "Rapyder Cloud Solutions",
+      "name": "Alpha Cloud Technologies",
       "is_indian": true,
       "is_startup": true,
-      "founded_year": 2016,
-      "founders": "Amit Gupta and Athreya Ramadas",
-      "headquarters": "Bengaluru, Karnataka",
-      "funding_info": "$167K",
-      "validation_notes": "Founded in India in 2016 by Indian founders. They have raised funding and are not an established enterprise."
+      "founded_year": 2020,
+      "founders": "Divya Sundaraju, Mahesh Arumugam",
+      "headquarters": "Chennai, Tamil Nadu",
+      "funding_info": null,
+      "validation_notes": "Alpha Cloud Technologies is based in Chennai, India, and was founded in 2020, making it an Indian startup."
     }
   ],
   "summary": "Validation completed for 2 companies in the Cloud Computing sector. Found 2 valid Indian startups. 0 companies failed validation.",

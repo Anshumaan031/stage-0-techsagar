@@ -2,16 +2,16 @@
   "tech_area": "Cloud Computing",
   "companies": [
     {
-      "name": "Sysnik",
+      "name": "Agrahyah",
       "tech_area": "Cloud Computing",
-      "description": "Sysnik automates processes in the banking and financial services sector with their cloud-enabled product, SYS-CORE."
+      "description": "An emerging company determined to provide services including cloud-driven marketing automation, conversational AI and others"
     },
     {
-      "name": "Rapyder Cloud Solutions",
+      "name": "Alpha Cloud Technologies",
       "tech_area": "Cloud Computing",
-      "description": "Rapyder Cloud Solutions provides cloud solutions."
+      "description": "An emerging startup aiming to help enterprises transform and embrace the future developing, customizing, and implementing SaaS products as well as developing websites and apps"
     }
   ],
-  "summary": "Two emerging Indian startups in cloud computing are Sysnik and Rapyder Cloud Solutions. Sysnik focuses on cloud-enabled banking solutions, while Rapyder Cloud Solutions provides general cloud solutions..",
+  "summary": "Two emerging Indian startups in Cloud Computing are Agrahyah, which provides cloud-driven marketing automation and conversational AI, and Alpha Cloud Technologies, which helps enterprises transform by developing and implementing SaaS products and developing websites and apps",
   "query_used": "top emerging Indian startups in Cloud Computing technology funding recent innovation"
 }

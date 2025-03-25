@@ -6,145 +6,59 @@
       "websites": [
         {
           "company_name": "Agrahyah Technologies",
-          "official_website": "www.agrahyah.com",
-          "tech_area": "AI Solutions",
+          "official_website": "https://www.agrahyah.com",
+          "tech_area": "Artificial Intelligence and Software Development",
           "confidence_score": 9,
-          "verification_notes": "Verified through multiple sources including LinkedIn, Inc42, and company directories. Consistent address information across different platforms."
+          "verification_notes": "Verified the website from several authoritative sources including company profiles that cite www.agrahyah.com as the official site. The domain closely matches the company name. Content on the website describes their mission and services related to AI technologies, confirmatory of being a legitimate tech startup. Contact information is available, including a physical address in Mumbai. The site appears professionally developed and maintained."
         }
       ],
-      "summary": "Agrahyah Technologies is a Mumbai-based AI solutions company. The official website is www.agrahyah.com. I verified this by cross-referencing information on LinkedIn, Inc42, and other business directories. The address S-2, Sej Plaza, Marve Road, Malad West, Mumbai is consistent across multiple sources."
-    },
-    {
-      "company_name": "Alpha Cloud Technologies",
-      "websites": [
-        {
-          "company_name": "Salezshark",
-          "official_website": "https://www.salezshark.com/",
-          "tech_area": "Customer Intelligence Platform",
-          "confidence_score": 9,
-          "verification_notes": "Verified through multiple sources including 6sense and Zoominfo. The website content aligns with the company description and provides contact information. The domain name matches the company name. They have an Indian development center."
-        }
-      ],
-      "summary": "Found the official website for Salezshark. Although Alpha Cloud Technologies is mentioned as an IT company in Chennai, it appears to be associated with Salezshark. Salezshark's official website is salezshark.com. The company has an Indian presence with a development center in India."
-    },
-    {
-      "company_name": "Bharath Cloud",
-      "websites": [
-        {
-          "company_name": "Bharath Cloud",
-          "official_website": "https://bharathcloud.com/",
-          "tech_area": "Cloud Computing",
-          "confidence_score": 9,
-          "verification_notes": "The domain name matches the company name. The website content confirms it's the official site and offers cloud services. The website looks professionally developed and maintained. Found contact information with an Indian address."
-        }
-      ],
-      "summary": "Official website for Bharath Cloud."
+      "summary": "Successfully verified the official website for Agrahyah Technologies, confirming its status as a genuine technology startup in India."
     },
     {
       "company_name": "Cspro Technology (OPC) Private Limited",
-      "websites": [],
-      "summary": "While multiple sources mention CSPRO Technology (OPC) Private Limited and its address in Delhi, finding the official website has been challenging. enquiry.csprotechnology.com appears to be a landing page for inquiries, but it lacks comprehensive information and independent confirmation. Therefore, a definitive official website could not be verified with high confidence."
+      "websites": [
+        {
+          "company_name": "Cspro Technology (OPC) Private Limited",
+          "official_website": "https://cspro.in",
+          "tech_area": "IT Services and Solutions",
+          "confidence_score": 8,
+          "verification_notes": "The website https://cspro.in is associated with Cspro Technology (OPC) Private Limited, as confirmed by the presence of relevant contact information including a verified address and phone numbers in Delhi, along with content that reflects the company's services. The domain name closely matches the company's name. The professional layout and design of the website suggest it is maintained properly. However, the contact email address found in some records was different, creating slight uncertainty about full authenticity."
+        }
+      ],
+      "summary": "Successfully identified and verified the official website of Cspro Technology (OPC) Private Limited with a high level of confidence."
     },
     {
       "company_name": "Rapyder Cloud Solutions",
       "websites": [
         {
           "company_name": "Rapyder Cloud Solutions",
-          "official_website": "https://www.rapyder.com/about-us/",
-          "tech_area": "Cloud Solutions",
+          "official_website": "https://www.rapyder.com/",
+          "tech_area": "Cloud Computing Solutions",
           "confidence_score": 9,
-          "verification_notes": "The domain name matches the company name. The website content confirms it's the company's official site, mentioning their services, team, and AWS & Azure partnership. The 'about-us' page details the company's founding and mission. Overall, high confidence."
+          "verification_notes": "The official website for Rapyder Cloud Solutions is https://www.rapyder.com/. This was confirmed by various sources, including company registration data. The domain closely matches the company name, and the website content details their services in cloud computing, confirming its authenticity as the company's official site. Contact information includes an address in Bengaluru, India, and the site is professionally designed."
         }
       ],
-      "summary": "I have found the official website for Rapyder Cloud Solutions."
-    },
-    {
-      "company_name": "Vuenow Infotech Pvt Ltd",
-      "websites": [
-        {
-          "company_name": "Vuenow Infotech Pvt Ltd",
-          "official_website": "https://vuenowonline.com/",
-          "tech_area": "IT Infrastructure as a Service (IaaS)",
-          "confidence_score": 8,
-          "verification_notes": "The domain name vuenowonline.com is consistent with the company name. The website content describes the company as an IT Infrastructure as a service (ITaaS) provider, specializing in cloud-enabled Edge Data Centers. D&B and Linkedin also point to this website. This confirms that it is likely the official website. Further verification could include checking for an Indian address or phone number on the website."
-        }
-      ],
-      "summary": "Based on the search results, the official website for Vuenow Infotech Pvt Ltd appears to be vuenowonline.com. I will verify this website."
-    },
-    {
-      "company_name": "Accuknox",
-      "websites": [
-        {
-          "company_name": "Accuknox",
-          "official_website": "https://www.accuknox.com/",
-          "tech_area": "Cloud Native Security",
-          "confidence_score": 10,
-          "verification_notes": "The domain name matches the company name. The website content confirms it's the company's official site. The website includes information about their products, solutions, resources and company details. The copyright at the bottom of the page confirms the website is up to date."
-        }
-      ],
-      "summary": "The official website for Accuknox was found. The domain name matches the company name. The website content confirms it's the company's official site. The website includes information about their products, solutions, resources and company details. The copyright at the bottom of the page confirms the website is up to date."
-    },
-    {
-      "company_name": "PingSafe",
-      "websites": [],
-      "summary": "PingSafe was acquired by SentinelOne in early 2024. There is no independent website for PingSafe currently. SentinelOne's website mentions the acquisition. Therefore, I cannot provide an official website for PingSafe. "
-    },
-    {
-      "company_name": "CoreStack",
-      "websites": [
-        {
-          "company_name": "CoreStack",
-          "official_website": "https://www.corestack.io/",
-          "tech_area": "Cloud Governance",
-          "confidence_score": 9,
-          "verification_notes": "The domain name matches the company name. The website content confirms it's the official site. LinkedIn and other sources also point to this website. Addresses in Chennai and Hyderabad, India, were found. The website appears professional and well-maintained."
-        }
-      ],
-      "summary": "The official website for CoreStack is corestack.io. They also have offices in Chennai and Hyderabad, India."
+      "summary": "Successfully verified the official website for Rapyder Cloud Solutions, meeting all criteria for authenticity."
     }
   ],
-  "count": 9,
+  "count": 3,
   "high_confidence_websites": [
     {
       "name": "Agrahyah Technologies",
-      "website": "www.agrahyah.com",
-      "tech_area": "AI Solutions",
+      "website": "https://www.agrahyah.com",
+      "tech_area": "Artificial Intelligence and Software Development",
       "confidence": 9
     },
     {
-      "name": "Salezshark",
-      "website": "https://www.salezshark.com/",
-      "tech_area": "Customer Intelligence Platform",
-      "confidence": 9
-    },
-    {
-      "name": "Bharath Cloud",
-      "website": "https://bharathcloud.com/",
-      "tech_area": "Cloud Computing",
-      "confidence": 9
-    },
-    {
-      "name": "Rapyder Cloud Solutions",
-      "website": "https://www.rapyder.com/about-us/",
-      "tech_area": "Cloud Solutions",
-      "confidence": 9
-    },
-    {
-      "name": "Vuenow Infotech Pvt Ltd",
-      "website": "https://vuenowonline.com/",
-      "tech_area": "IT Infrastructure as a Service (IaaS)",
+      "name": "Cspro Technology (OPC) Private Limited",
+      "website": "https://cspro.in",
+      "tech_area": "IT Services and Solutions",
       "confidence": 8
     },
     {
-      "name": "Accuknox",
-      "website": "https://www.accuknox.com/",
-      "tech_area": "Cloud Native Security",
-      "confidence": 10
-    },
-    {
-      "name": "CoreStack",
-      "website": "https://www.corestack.io/",
-      "tech_area": "Cloud Governance",
+      "name": "Rapyder Cloud Solutions",
+      "website": "https://www.rapyder.com/",
+      "tech_area": "Cloud Computing Solutions",
       "confidence": 9
     }
   ]
