@@ -1,181 +1,158 @@
-# Indian Tech Startup Research Agent
+# Indian Startup Discovery Platform (v2)
 
-An intelligent agent system designed to research and catalog emerging Indian technology startups across various technology domains. The system uses AI-powered search and data extraction capabilities to maintain an up-to-date database of promising startups in India's tech ecosystem.
+## Overview
 
-## Features
+The Indian Startup Discovery Platform is an advanced multi-agent AI system designed to research, validate, and catalog emerging Indian technology startups across various technological domains. Utilizing state-of-the-art AI techniques, the platform automates the process of discovering and documenting promising startups.
 
-- Automated research and data extraction for Indian tech startups
-- Coverage of 25+ technology areas including AI/ML, Blockchain, IoT, etc.
-- AI-powered intelligent search using GPT-4 and Tavily API
-- Automated data persistence in MySQL database
-- Configurable search parameters and technology areas
-- Result export in both database and text file formats
+## Key Features
 
-## Project Structure
+- 🔍 Comprehensive Startup Research
+- 🏢 Multi-Stage Validation Process
+- 🌐 Official Website Discovery
+- 📊 Structured Data Collection
+- 🚀 RESTful API Integration
 
-```
-indian-tech-startup-agent/
-├── utils/
-│   ├── db.py          # Database operations and models
-│   └── helper.py      # Utility functions and data processing
-├── agent.py           # Core agent implementation and tools
-├── main.py           # Main execution script
-├── requirements.txt  # Project dependencies
-└── results/         # Generated results directory
-    └── results_{tech_area}.txt
-```
+## Technology Stack
+
+### Backend
+- Python 3.9+
+- Flask
+- SQLAlchemy
+- Pydantic AI
+- Tavily AI Search
+
+### Frontend
+- React
+- Next.js
+- Tailwind CSS
+- Shadcn/UI
+
+### Database
+- MySQL
+- SQLAlchemy ORM
+
+## Project Architecture
+
+The platform consists of three primary agents:
+
+1. **Research Agent (agent1.py)**
+   - Searches for emerging Indian startups
+   - Focuses on specific technology areas
+   - Extracts initial company information
+
+2. **Validation Agent (agent2.py)**
+   - Verifies startup authenticity
+   - Checks Indian origin
+   - Validates startup status
+
+3. **Website Discovery Agent (agent3.py)**
+   - Finds official company websites
+   - Verifies website authenticity
+   - Collects additional company details
 
 ## Prerequisites
 
-- Python 3.8+
-- MySQL Server
-- OpenAI API Key
-- Tavily API Key
+- Python 3.9+
+- pip
+- MySQL
+- Node.js 16+
+- npm
 
-## Dependencies
+## Backend Setup
 
-```
-python-dotenv
-openai
-tavily-python
-pydantic
-sqlalchemy
-pymysql
-pandas
-ipython
-nest-asyncio
-httpx
-devtools
-pydantic-ai
-mysql-connector-python
-```
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/indian-startup-discovery.git
+   cd indian-startup-discovery
+   ```
 
-## Environment Setup
+2. Create a virtual environment
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
 
-1. Create a `.env` file in the root directory with the following variables:
+3. Install Python dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```env
-OPENAI_API_KEY=your_openai_api_key
-TAVILY_API_KEY=your_tavily_api_key
-DB_USER=your_mysql_username
-DB_PASSWORD=your_mysql_password
-DB_HOST=localhost
-DB_NAME=startups_db
-DB_PORT=3306
-```
+4. Configure Environment Variables
+   Create a `.env` file with the following:
+   ```
+   OPENAI_API_KEY=your_openai_api_key
+   TAVILY_API_KEY=your_tavily_api_key
+   DB_USER=your_mysql_username
+   DB_PASSWORD=your_mysql_password
+   DB_HOST=localhost
+   DB_NAME=startups_db
+   DB_PORT=3306
+   ```
 
-2. Create a MySQL database:
+5. Setup MySQL Database
+   ```bash
+   mysql -u root -p
+   CREATE DATABASE startups_db;
+   exit;
+   ```
 
-```sql
-CREATE DATABASE startups_db;
-```
+## Running the Backend
 
-## Installation
+1. Start the Flask API
+   ```bash
+   python api.py
+   ```
 
-1. Clone the repository:
+2. Run research workflow
+   ```bash
+   python main.py
+   ```
+
+## Frontend Setup
+
+1. Navigate to frontend directory
+   ```bash
+   cd frontend
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Start development server
+   ```bash
+   npm run dev
+   ```
+
+## API Endpoints
+
+- `POST /api/research`: Research startups in a tech area
+- `POST /api/validate`: Validate startup information
+- `POST /api/websites`: Find startup websites
+- `GET /health`: Check system health
+
+## Example API Request
+
 ```bash
-git clone <repository-url>
-cd indian-tech-startup-agent
+curl -X POST http://localhost:5000/api/research \
+     -H "Content-Type: application/json" \
+     -d '{"tech_area": "Blockchain"}'
 ```
 
-2. Create and activate a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+## Data Flow
 
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+1. Research Agent discovers startups
+2. Validation Agent verifies authenticity
+3. Website Agent finds official websites
+4. Results stored in MySQL database
+5. API serves validated startup information
 
-## Usage
-
-1. Run the main script:
-```bash
-python main.py
-```
-
-The script will:
-- Process each technology area sequentially
-- Save results to both database and text files
-- Create a `results` directory with individual files for each tech area
-- Handle API rate limiting and error cases
-
-## Technology Areas Covered
-
-The system researches startups in the following technology domains:
-
-- AI and ML
-- Application Infrastructure and Software
-- Augmented and Virtual Reality
-- Blockchain
-- Cloud Computing and Virtualization
-- Computer Vision
-- Cryptology
-- Cybersecurity
-- Data Science
-- Digital Forensics
-- Enterprise Business Technologies
-- Hardware, Semiconductors, and Embedded
-- Human Computer Interaction
-- Identity Management and Authentication
-- Internet of Things
-- Location and Presence
-- Material Science
-- Mobility and End Points
-- Natural Language Processing
-- Next Generation Computing
-- Operating Systems
-- Quantum Technology
-- Software Defined Infrastructure
-- Unmanned Aerial Vehicles
-- Wireless and Networking Technologies
-- 5G and 6G
-
-## Database Schema
-
-The system uses a simple but effective database schema:
-
-```sql
-CREATE TABLE companies (
-    id INTEGER PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(255) NOT NULL,
-    website VARCHAR(255) NOT NULL,
-    tech_area VARCHAR(100) NOT NULL,
-    INDEX (name),
-    INDEX (tech_area)
-);
-```
-
-## Contributing
-
-Contributions are welcome! Here are some ways you can contribute:
-
-- Add new technology areas
-- Improve search accuracy
-- Enhance data validation
-- Add new data export formats
-- Improve error handling
-- Add tests
-
-## Error Handling
-
-The system includes comprehensive error handling for:
-- Database connection issues
-- API rate limiting
-- Invalid search results
-- Data validation errors
-- File system operations
-
-## Limitations
-
-- Limited to Indian startups only
-- Depends on search API availability
-- Results quality depends on GPT-4 accuracy
-- Rate limited by API constraints
-- Requires manual verification for critical data
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+MIT License
+
+## Disclaimer
+
+This platform is for informational purposes. Always verify startup information independently.

@@ -2,44 +2,44 @@
   "tech_area": "Cloud Computing",
   "company_websites": [
     {
-      "company_name": "Agrahyah Technologies",
+      "company_name": "Accuknox",
       "websites": [
         {
-          "company_name": "Agrahyah Technologies",
-          "official_website": "https://www.agrahyah.com",
-          "tech_area": "Software Development / AI Solutions",
+          "company_name": "AccuKnox",
+          "official_website": "https://www.accuknox.com",
+          "tech_area": "Cloud-Native Security Solutions",
           "confidence_score": 9,
-          "verification_notes": "The official website found is www.agrahyah.com, which closely matches the company name. The site contains detailed information about the company's offerings, confirms its status as an AI solutions provider, and includes Indian contact details. The website is professionally developed with clear branding and content consistent with a legitimate company website."
+          "verification_notes": "The website (https://www.accuknox.com) directly corresponds to the name \"AccuKnox\" and the content clearly outlines their focus on cloud-native security, particularly zero trust architecture. The site includes Indian office details (ONE74, Satyadev Avenue Extn, Mylapore, Chennai) in its contact information, confirming its relevance to the Indian market. Furthermore, the design appears professional and well-maintained. The company has associations with renowned research institutions, adding to its credibility."
         }
       ],
-      "summary": "Successfully verified the official website of Agrahyah Technologies."
+      "summary": "The official website for AccuKnox has been verified successfully. It meets the standards for authenticity and relevance to the Indian market."
     },
     {
-      "company_name": "Alpha Cloud Technologies",
+      "company_name": "CoreStack",
       "websites": [
         {
-          "company_name": "Alpha Cloud Technologies",
-          "official_website": "https://www.alphacloudtech.com/",
-          "tech_area": "IT Services and IT Consulting",
+          "company_name": "CoreStack",
+          "official_website": "https://www.corestack.io/",
+          "tech_area": "Cloud Governance",
           "confidence_score": 9,
-          "verification_notes": "I located the official website for Alpha Cloud Technologies at https://www.alphacloudtech.com/. The domain name closely matches the company name, confirming its authenticity. The content on the site discusses their expertise in SaaS products and other IT services, aligning with what would be expected from a legitimate business offering such services. Additionally, the site's presentation is professional and well-maintained. I found no conflicting information suggesting it's anything other than an official site. The contact information includes Indian references, further supporting its legitimacy."
+          "verification_notes": "The official website for CoreStack is https://www.corestack.io/. The domain closely matches the company name, and the website content is comprehensive and relevant to CoreStack's business in cloud governance solutions. The site includes professional design, clear contact information with Indian addresses and phone numbers, and sections that detail the company's offerings and successes. The only minor uncertainty is the absence of explicit terms of service or detailed regulatory compliance statements, which is common but adds slight uncertainty to overall verification."
         }
       ],
-      "summary": "One official website found for Alpha Cloud Technologies with high confidence in its authenticity."
+      "summary": "Found the official website for CoreStack with high confidence."
     }
   ],
   "count": 2,
   "high_confidence_websites": [
     {
-      "name": "Agrahyah Technologies",
-      "website": "https://www.agrahyah.com",
-      "tech_area": "Software Development / AI Solutions",
+      "name": "AccuKnox",
+      "website": "https://www.accuknox.com",
+      "tech_area": "Cloud-Native Security Solutions",
       "confidence": 9
     },
     {
-      "name": "Alpha Cloud Technologies",
-      "website": "https://www.alphacloudtech.com/",
-      "tech_area": "IT Services and IT Consulting",
+      "name": "CoreStack",
+      "website": "https://www.corestack.io/",
+      "tech_area": "Cloud Governance",
       "confidence": 9
     }
   ]
