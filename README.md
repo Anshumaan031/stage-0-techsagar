@@ -148,21 +148,6 @@ curl -X POST http://localhost:5000/api/research \
 4. Results stored in MySQL database
 5. API serves validated startup information
 
-## Roadmap
-
-- [ ] Add more technology areas
-- [ ] Implement frontend dashboard
-- [ ] Create advanced filtering
-- [ ] Add investment tracking
-- [ ] Implement machine learning recommendations
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
 
 ## License
 
@@ -171,8 +156,3 @@ MIT License
 ## Disclaimer
 
 This platform is for informational purposes. Always verify startup information independently.
-
-## Contact
-
-For inquiries, please email: contact@startupdiscovery.in
-```
