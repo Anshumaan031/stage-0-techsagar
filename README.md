@@ -4,6 +4,10 @@
 
 The Indian Startup Discovery Platform is an advanced multi-agent AI system designed to research, validate, and catalog emerging Indian technology startups across various technological domains. Utilizing state-of-the-art AI techniques, the platform automates the process of discovering and documenting promising startups.
 
+![UI 1](image1.png)
+![UI 1](image2.png)
+![UI 1](image3.png)
+
 ## Key Features
 
 - 🔍 Comprehensive Startup Research
