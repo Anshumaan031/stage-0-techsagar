@@ -1,0 +1,17 @@
+{
+  "tech_area": "Cloud Computing",
+  "companies": [
+    {
+      "name": "Accuknox",
+      "tech_area": "Cloud Computing",
+      "description": "Provides cloud infrastructure security solutions."
+    },
+    {
+      "name": "CoreStack",
+      "tech_area": "Cloud Computing",
+      "description": "Provides multi-cloud governance SaaS solutions."
+    }
+  ],
+  "summary": "Two emerging Indian startups in the cloud computing space are Accuknox, focusing on cloud infrastructure security, and CoreStack, which provides multi-cloud governance SaaS. Both companies have received funding and recognition for their innovative approaches. ",
+  "query_used": "top emerging Indian startups in Cloud Computing technology funding recent innovation"
+}

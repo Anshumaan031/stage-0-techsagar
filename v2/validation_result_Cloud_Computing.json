@@ -1,0 +1,27 @@
+{
+  "tech_area": "Cloud Computing",
+  "validated_companies": [
+    {
+      "name": "Accuknox",
+      "is_indian": true,
+      "is_startup": true,
+      "founded_year": 2020,
+      "founders": "Asif Ali, Nat Natraj, & Rahul Jadhav",
+      "headquarters": "Chennai",
+      "funding_info": "Seed funding of $5.8M",
+      "validation_notes": "Accuknox is a startup founded in 2020 by Asif Ali, Nat Natraj, & Rahul Jadhav. It is based in India, specifically Chennai. It has raised seed funding."
+    },
+    {
+      "name": "CoreStack",
+      "is_indian": true,
+      "is_startup": true,
+      "founded_year": 2016,
+      "founders": "Ezhilarasan Natarajan, Krishnakumar Narayanan, Thiruvalluvar NB, and Sabapathy A",
+      "headquarters": "Bellevue, Washington, USA",
+      "funding_info": "$45 million",
+      "validation_notes": "Founded in 2016 by Indian founders, has headquarters in US and a significant R&D presence in Chennai, India. Raised $45M in funding, which indicates it is a startup."
+    }
+  ],
+  "summary": "Validation completed for 2 companies in the Cloud Computing sector. Found 2 valid Indian startups. 0 companies failed validation.",
+  "original_query": "top emerging Indian startups in Cloud Computing technology funding recent innovation"
+}

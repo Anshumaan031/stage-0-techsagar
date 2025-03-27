@@ -80,8 +80,8 @@ function App() {
   const [data, setData] = React.useState<ResearchData | null>(null);
   const [validationData, setValidationData] = React.useState<ValidationResponse | null>(null);
   const [websiteData, setWebsiteData] = React.useState<WebsiteValidationResponse | null>(null);
-  const [techArea, setTechArea] = React.useState('Blockchain');
-  const [maxResults, setMaxResults] = React.useState(20);
+  const [techArea, setTechArea] = React.useState('');
+  const [maxResults, setMaxResults] = React.useState(2);
   const [elapsedTime, setElapsedTime] = React.useState(0);
   const timerRef = React.useRef<number>();
 
