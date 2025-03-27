@@ -8,8 +8,8 @@
       "founded_year": 2021,
       "founders": "Ankit Wadhwa, Sunny Bhanot",
       "headquarters": "Gurugram, Haryana",
-      "funding_info": null,
-      "validation_notes": "Rario is based in India and was founded in 2021, making it a relatively new company. It has also raised funding, indicating it's a startup."
+      "funding_info": "$120 million",
+      "validation_notes": "Rario is an Indian startup founded in 2021 by Ankit Wadhwa and Sunny Bhanot, headquartered in Delhi/Gurugram. It has raised funding."
     },
     {
       "name": "Soulverse",
@@ -17,9 +17,9 @@
       "is_startup": true,
       "founded_year": 2021,
       "founders": "Kavitha Kanaparthi",
-      "headquarters": "Kalamazoo, United States/Dehradun, Uttarakhand, IN",
-      "funding_info": "No funding rounds raised yet",
-      "validation_notes": "Soulverse is based in India and was founded in 2021, making it a relatively new company. Kavitha Kanaparthi is the founder. The company has not raised any funding rounds yet and focuses on decentralized identity solutions."
+      "headquarters": "Uttarakhand",
+      "funding_info": null,
+      "validation_notes": "Soulverse is based in India and appears to be a startup founded by an Indian founder (Kavitha Kanaparthi) in either 2021 or 2023. Further clarification needed on the exact founding year."
     }
   ],
   "summary": "Validation completed for 2 companies in the Blockchain sector. Found 2 valid Indian startups. 0 companies failed validation.",

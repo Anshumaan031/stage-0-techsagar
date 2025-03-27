@@ -1,0 +1,17 @@
+{
+  "tech_area": "IoT",
+  "companies": [
+    {
+      "name": "Nosh Robotics",
+      "tech_area": "IoT",
+      "description": "Develops AI-enabled robots that can follow commands and cooking instructions to prepare meals autonomously. They are building kitchen robots that cook homely meals completely autonomously as per your taste and diet requirements"
+    },
+    {
+      "name": "Twin Health",
+      "tech_area": "IoT",
+      "description": "Precision Health platform combining IoT Sensors, Machine Learning, and Medical Science to reverse chronic diseases like diabetes."
+    }
+  ],
+  "summary": "Two promising Indian startups in the IoT space are Nosh Robotics, which focuses on AI-powered cooking robots, and Twin Health, which is using IoT and machine learning for chronic disease reversal.",
+  "query_used": "top emerging Indian startups in IoT technology funding recent innovation"
+}

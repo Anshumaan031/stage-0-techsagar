@@ -7,12 +7,12 @@
         {
           "company_name": "Rario",
           "official_website": "https://www.rario.com/",
-          "tech_area": "Software Development",
+          "tech_area": "Digital Collectibles",
           "confidence_score": 9,
-          "verification_notes": "The domain name matches the company name, and the website content confirms it's the official site for Rario, a cricket digital collectibles platform. The LinkedIn page also links to this website."
+          "verification_notes": "The official website for Rario is https://www.rario.com/. The domain name clearly includes the company name. The website describes itself as the world's first officially licensed digital collectibles platform for cricket, confirming its authenticity. Contact information is available, indicating operations in India, with various mentions of cricket collectibles aligning with Rario's business model. The website appears professionally developed with regular updates, which further supports its credibility."
         }
       ],
-      "summary": "I found the official website for Rario."
+      "summary": "Successfully verified the official website for the Indian technology startup Rario, specializing in digital collectibles for cricket."
     },
     {
       "company_name": "Soulverse",
@@ -20,12 +20,12 @@
         {
           "company_name": "Soulverse",
           "official_website": "https://soulverse.us/",
-          "tech_area": "Digital Identity",
+          "tech_area": "Blockchain Services",
           "confidence_score": 9,
-          "verification_notes": "The domain name matches the company name. The website content confirms it's the official site for Soulverse, a digital identity company. The website mentions Dehradun, India, as one of its locations. I am very confident that this is their official website."
+          "verification_notes": "The official website for Soulverse is https://soulverse.us/. The domain closely matches the company name, and the site provides comprehensive information about their offerings, including details on digital identity services and blockchain technology. Contact information on the site confirms Indian presence, with a listed address in Dehradun, Uttarakhand. The design of the website is professional, and it appears to have regular updates relevant to their services. There are no noticeable issues that affect the confidence of the website being official."
         }
       ],
-      "summary": "I found the official website for Soulverse. It appears to be a US-based company with operations in India."
+      "summary": "One official website for Soulverse was verified as genuine and related to the Indian technology startup."
     }
   ],
   "count": 2,
@@ -33,13 +33,13 @@
     {
       "name": "Rario",
       "website": "https://www.rario.com/",
-      "tech_area": "Software Development",
+      "tech_area": "Digital Collectibles",
       "confidence": 9
     },
     {
       "name": "Soulverse",
       "website": "https://soulverse.us/",
-      "tech_area": "Digital Identity",
+      "tech_area": "Blockchain Services",
       "confidence": 9
     }
   ]

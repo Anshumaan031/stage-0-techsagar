@@ -48,8 +48,8 @@ model = GeminiModel('gemini-2.0-flash', provider='google-gla')
 
 # Create the website finder agent
 website_finder_agent = Agent(
-    #model=model,
-    'gpt-4o-mini',
+    model=model,
+    #'gpt-4o-mini',
     deps_type=WebsiteFinderDependencies,
     result_type=WebsiteSearchResult,
     system_prompt='''You are an expert at finding and verifying official websites for Indian technology startups.
