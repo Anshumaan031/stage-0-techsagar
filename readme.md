@@ -116,7 +116,7 @@ The platform consists of three primary agents:
 
 1. Navigate to frontend directory
    ```bash
-   cd frontend
+   cd UI
    ```
 
 2. Install dependencies
