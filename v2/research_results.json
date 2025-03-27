@@ -1,8 +1,0 @@
-{
-  "Blockchain": {
-    "tech_area": "Blockchain",
-    "companies": [],
-    "summary": "Error occurred during research: object _AsyncGeneratorContextManager can't be used in 'await' expression",
-    "query_used": "top emerging Indian startups in Blockchain technology funding recent innovation"
-  }
-}
