@@ -1,0 +1,17 @@
+{
+  "tech_area": "IoT",
+  "companies": [
+    {
+      "name": "Cooey Technologies",
+      "tech_area": "IoT",
+      "description": "Provides IoT solutions focused on healthcare, particularly remote patient monitoring. They integrate IoT devices for real-time health monitoring and personalized healthcare management."
+    },
+    {
+      "name": "Barsys",
+      "tech_area": "IoT",
+      "description": "An IoT-driven company that provides a smart dispenser with a large database of cocktail recipes that serves up consistent drinks with the right ingredients"
+    }
+  ],
+  "summary": "Cooey Technologies and Barsys are two emerging Indian startups in the IoT space. Cooey Technologies focuses on remote patient monitoring while Barsys provides automated cocktail dispensing solutions. ",
+  "query_used": "top emerging Indian startups in IoT technology funding recent innovation"
+}

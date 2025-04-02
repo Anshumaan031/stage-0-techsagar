@@ -18,7 +18,14 @@ load_dotenv()
 
 # Setup Flask app
 app = Flask(__name__)
-CORS(app) 
+# Configure CORS with more specific options
+CORS(app, resources={r"/api/*": {
+    "origins": ["http://localhost:3000", "http://127.0.0.1:3000", "http://localhost:5173"],
+    "methods": ["GET", "POST", "OPTIONS"],
+    "allow_headers": ["Content-Type", "Authorization"],
+    "expose_headers": ["Content-Type"],
+    "supports_credentials": True
+}})
 
 # Helper function to run async functions in sync context
 def run_async(coro):
@@ -34,8 +41,11 @@ def run_async(coro):
     return result
 
 # Agent 1 Endpoint - Research Indian Startups in Tech Area
-@app.route('/api/research', methods=['POST'])
+@app.route('/api/research', methods=['POST','OPTIONS'])
 def research_startups():
+    # Handle preflight OPTIONS request
+    if request.method == 'OPTIONS':
+        return '', 204
     try:
         # Get request data
         data = request.json
