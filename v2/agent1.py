@@ -14,6 +14,7 @@ from pydantic_ai.models.openai import OpenAIModel
 from pydantic_ai.providers.openai import OpenAIProvider
 from pydantic import BaseModel, Field
 from tavily import AsyncTavilyClient
+from pydantic_ai.usage import UsageLimits  # Importing the UsageLimits class of Pydantic AI
 
 # Load environment variables
 load_dotenv()
@@ -82,11 +83,13 @@ async def search_indian_startups(search_data: RunContext[ResearchDependencies], 
     print(f"Search query: {query}")
     
     # Use Tavily for web search
-    tavily_results = await tavily_client.get_search_context(
+    tavily_results = await tavily_client.search(
         query=query,
         max_results=search_data.deps.max_results,
-        search_depth=search_data.deps.search_depth
+        search_depth=search_data.deps.search_depth,
+        include_answer="basic"  #includes an LLM-generated answer to the provided query.
     )
+    #if we want to incude get_saerch_context from tavily client, we have to remove include_answer="basic"
     
     return tavily_results
 
@@ -102,7 +105,11 @@ async def research_tech_area(tech_area: str, max_results: int = 5) -> Dict:
     
     try:
         # Run the agent to get research results
-        result = await company_research_agent.run(search_query, deps=deps)
+        result = await company_research_agent.run(
+            search_query, 
+            deps=deps,
+            usage_limits=UsageLimits(request_limit=3)  # Limiting the number of tools calls the agent can make. (every limit for agent run should be a under UsageLimits)
+        )
         
         # Convert to dictionary for easy JSON serialization
         output = {
@@ -127,7 +134,7 @@ async def main():
     """Main function to test the research agent."""
     # Example technology areas
     tech_areas = [
-        "Blockchain"
+        "IoT"
     ]
     
     all_results = {}

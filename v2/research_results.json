@@ -1,0 +1,8 @@
+{
+  "IoT": {
+    "tech_area": "IoT",
+    "companies": [],
+    "summary": "Error occurred during research: tavily.async_tavily.AsyncTavilyClient._search() got multiple values for keyword argument 'include_answer'",
+    "query_used": "top emerging Indian startups in IoT technology funding recent innovation"
+  }
+}

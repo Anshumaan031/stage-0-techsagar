@@ -1,0 +1,17 @@
+{
+  "tech_area": "Blockchain",
+  "companies": [
+    {
+      "name": "Rario",
+      "tech_area": "Blockchain",
+      "description": "Offers NFTs of iconic sports moments, blending blockchain with cultural passions."
+    },
+    {
+      "name": "Soulverse",
+      "tech_area": "Blockchain",
+      "description": "Building a 360-degree decentralized identity infrastructure."
+    }
+  ],
+  "summary": "Rario and Soulverse are two emerging Indian startups in the Blockchain space. Rario is capitalizing on India's cricket fandom by offering NFTs, while Soulverse is focused on decentralized identity infrastructure.",
+  "query_used": "top emerging Indian startups in Blockchain technology funding recent innovation"
+}

@@ -11,6 +11,7 @@ import json
 from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.gemini import GeminiModel
 from pydantic import BaseModel, Field
+from pydanic_ai.usage import UsageLimits
 from tavily import AsyncTavilyClient
 
 # Load environment variables
