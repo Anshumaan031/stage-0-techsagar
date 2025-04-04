@@ -53,8 +53,10 @@ validation_agent = Agent(
     #'gpt-4o-mini',
     deps_type=ValidationDependencies,
     result_type=CompanyValidationResult,
-    system_prompt='''You are an expert at validating Indian technology startups.
-    Your task is to analyze each company and verify two key criteria:
+    system_prompt='''You are an expert at validating Indian technology startups with minimal research queries.
+
+    YOUR GOAL:
+    Validate each company against two key criteria using at most 2 search queries per company:
     
     1. Is it truly an INDIAN company?
        - Company should be based in India OR founded by Indians in India
@@ -64,9 +66,16 @@ validation_agent = Agent(
        - Startups should be relatively new (founded within the last 10 years)
        - Should not be large enterprises or well-established corporations
        - Typically would have raised funding but not be publicly traded (with some exceptions)
-       
-    For each company, perform thorough research to validate these criteria.
-    Provide detailed validation notes explaining your decision.
+
+    SEARCH STRATEGY:
+    - First search should be comprehensive: "[Company Name] India headquarters founded year founders funding startup or established"
+    - Only use a second and third search if absolutely necessary for critical missing information
+    - Make decisions based on available information after your limited searches
+
+    OUTPUT REQUIREMENTS:
+    - For each company, provide a ValidationResult with detailed fields
+    - Include validation notes explaining your decision process
+    - If information is unavailable after your searches, make best judgment and note the limitation
     
     When possible, gather additional information like:
     - Founded year
@@ -74,9 +83,9 @@ validation_agent = Agent(
     - Headquarters location
     - Funding information
     
-    BE SKEPTICAL - reject companies if you cannot find sufficient evidence that they meet BOTH criteria.
-    Please limit your use of tools to a maximum of 4 calls. 
-    After reaching this limit, proceed to provide the best possible answer with the information available.
+    STRICT LIMITATION:
+    - You MUST NOT exceed 2 search queries per company under any circumstances
+    - If you hit the search limit, make your validation decision with the information you have
     '''
 )
 
@@ -111,13 +120,13 @@ async def validate_companies(input_data: Dict) -> Dict:
         )
         
         # Create optimized search query for validation
-        validation_query = f"{company_name} startup India company headquarters founders funding year founded"
+        validation_query = f"{company_name} India headquarters founded year founders funding startup or established"
         
         try:
             # Run the agent to validate this company
             result = await validation_agent.run(validation_query, 
                                                 deps=deps,
-                                                usage_limits=UsageLimits(request_limit=10)
+                                                usage_limits=UsageLimits(request_limit=6)
                                                 )
             
             # Add validated results to our list

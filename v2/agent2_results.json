@@ -5,22 +5,22 @@
       {
         "name": "Valory",
         "is_indian": false,
-        "is_startup": false,
-        "founded_year": null,
+        "is_startup": true,
+        "founded_year": 2021,
         "founders": null,
-        "headquarters": null,
+        "headquarters": "Zug, Switzerland",
         "funding_info": null,
-        "validation_notes": "Validation failed due to error: The next request would exceed the request_limit of 4"
+        "validation_notes": "Valory is headquartered in Switzerland and was founded in 2021, making it a startup but not an Indian company."
       },
       {
         "name": "Namefi",
         "is_indian": false,
-        "is_startup": false,
-        "founded_year": null,
-        "founders": null,
-        "headquarters": null,
-        "funding_info": null,
-        "validation_notes": "Validation failed due to error: The next request would exceed the request_limit of 4"
+        "is_startup": true,
+        "founded_year": 2023,
+        "founders": "Victor Zhou",
+        "headquarters": "Sunnyvale, CA",
+        "funding_info": "$2.6M",
+        "validation_notes": "Founded in 2023 by Victor Zhou, headquartered in Sunnyvale, CA. Not an Indian company as it's not based in India and the founder is not Indian. It is a startup founded recently."
       }
     ],
     "summary": "Validation completed for 2 companies in the Blockchain sector. Found 0 valid Indian startups. 2 companies failed validation.",

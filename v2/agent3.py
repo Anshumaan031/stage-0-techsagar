@@ -30,7 +30,7 @@ class WebsiteFinderDependencies:
     tech_area: str
     company_details: Dict
     max_results: int = 3
-    search_depth: str = "advanced"  # "basic" or "advanced"
+    search_depth: str = "basic"  # "basic" or "advanced"
 
 class WebsiteInfo(BaseModel):
     company_name: str = Field(description='Name of the company')
@@ -116,7 +116,7 @@ async def find_company_website(company: Dict, tech_area: str) -> Dict:
         # Return the result
         return {
             "company_name": company_name,
-            "websites": [website.dict() for website in result.data.websites],
+            "websites": [website.model_dump() for website in result.data.websites],
             "summary": result.data.summary
         }
         
