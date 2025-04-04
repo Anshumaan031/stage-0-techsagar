@@ -11,7 +11,7 @@ import json
 from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.gemini import GeminiModel
 from pydantic import BaseModel, Field
-from pydanic_ai.usage import UsageLimits
+from pydantic_ai.usage import UsageLimits
 from tavily import AsyncTavilyClient
 
 # Load environment variables
@@ -75,6 +75,8 @@ validation_agent = Agent(
     - Funding information
     
     BE SKEPTICAL - reject companies if you cannot find sufficient evidence that they meet BOTH criteria.
+    Please limit your use of tools to a maximum of 4 calls. 
+    After reaching this limit, proceed to provide the best possible answer with the information available.
     '''
 )
 
@@ -113,7 +115,10 @@ async def validate_companies(input_data: Dict) -> Dict:
         
         try:
             # Run the agent to validate this company
-            result = await validation_agent.run(validation_query, deps=deps)
+            result = await validation_agent.run(validation_query, 
+                                                deps=deps,
+                                                usage_limits=UsageLimits(request_limit=10)
+                                                )
             
             # Add validated results to our list
             all_validated_companies.extend(result.data.validated_companies)
@@ -169,7 +174,7 @@ async def main():
         # Limit to first 5 companies for testing purposes
         # Remove this slice in production
         test_data = data.copy()
-        test_data["companies"] = data["companies"][:5]
+        test_data["companies"] = data["companies"][:2]
         
         validation_result = await validate_companies(test_data)
         validation_results[tech_area] = validation_result
